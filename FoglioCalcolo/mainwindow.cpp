@@ -1,11 +1,12 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 
-MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
+MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) , ui(new Ui::MainWindow)
 {
+    // ready the ui
     ui->setupUi(this);
+
+    // connect makes setChanges function to be called when text in editLine is changed
     connect(ui->Val1, SIGNAL(textChanged(QString)), this, SLOT(setChanges()));
     connect(ui->Val2, SIGNAL(textChanged(QString)), this, SLOT(setChanges()));
     connect(ui->Val3, SIGNAL(textChanged(QString)), this, SLOT(setChanges()));
@@ -13,6 +14,7 @@ MainWindow::MainWindow(QWidget *parent)
 
 MainWindow::~MainWindow()
 {
+    // deallocate dynamic memory
     delete ui;
 }
 

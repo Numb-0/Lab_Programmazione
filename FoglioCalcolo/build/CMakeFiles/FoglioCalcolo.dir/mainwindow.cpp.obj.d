@@ -300,11 +300,6 @@ CMakeFiles/FoglioCalcolo.dir/mainwindow.cpp.obj: \
  C:/msys64/mingw64/include/QtCore/qvariant.h \
  C:/msys64/mingw64/include/QtCore/qmap.h \
  C:/msys64/mingw64/include/c++/13.2.0/variant \
- C:/msys64/mingw64/include/QtWidgets/QAction \
- C:/msys64/mingw64/include/QtWidgets/qaction.h \
- C:/msys64/mingw64/include/QtCore/qvariant.h \
- C:/msys64/mingw64/include/QtWidgets/qactiongroup.h \
- C:/msys64/mingw64/include/QtWidgets/qaction.h \
  C:/msys64/mingw64/include/QtWidgets/QApplication \
  C:/msys64/mingw64/include/QtWidgets/qapplication.h \
  C:/msys64/mingw64/include/QtCore/qcoreapplication.h \
@@ -313,6 +308,7 @@ CMakeFiles/FoglioCalcolo.dir/mainwindow.cpp.obj: \
  C:/msys64/mingw64/include/QtGui/qguiapplication.h \
  C:/msys64/mingw64/include/QtGui/qinputmethod.h \
  C:/msys64/mingw64/include/QtCore/qlocale.h \
+ C:/msys64/mingw64/include/QtCore/qvariant.h \
  C:/msys64/mingw64/include/QtWidgets/QLabel \
  C:/msys64/mingw64/include/QtWidgets/qlabel.h \
  C:/msys64/mingw64/include/QtWidgets/qframe.h \
@@ -323,11 +319,6 @@ CMakeFiles/FoglioCalcolo.dir/mainwindow.cpp.obj: \
  C:/msys64/mingw64/include/QtGui/qpen.h \
  C:/msys64/mingw64/include/QtGui/qtextoption.h \
  C:/msys64/mingw64/include/QtWidgets/QMainWindow \
- C:/msys64/mingw64/include/QtWidgets/QMenu \
- C:/msys64/mingw64/include/QtWidgets/qmenu.h \
- C:/msys64/mingw64/include/QtWidgets/QMenuBar \
- C:/msys64/mingw64/include/QtWidgets/qmenubar.h \
- C:/msys64/mingw64/include/QtWidgets/qmenu.h \
  C:/msys64/mingw64/include/QtWidgets/QStatusBar \
  C:/msys64/mingw64/include/QtWidgets/qstatusbar.h \
  C:/msys64/mingw64/include/QtWidgets/QWidget \

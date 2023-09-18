@@ -150,22 +150,6 @@
    </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <widget class="QMenu" name="menuCalcolo">
-    <property name="title">
-     <string>Calcolo</string>
-    </property>
-   </widget>
-   <addaction name="menuCalcolo"/>
-  </widget>
  </widget>
  <resources/>
  <connections/>

@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 
     InputObserver obs1;
     w.addObserver(&obs1);
-    
+    // loop
     w.show();
     return a.exec();
 }

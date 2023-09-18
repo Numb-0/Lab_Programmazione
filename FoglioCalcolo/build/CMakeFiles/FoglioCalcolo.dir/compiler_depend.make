@@ -604,10 +604,6 @@ CMakeFiles/FoglioCalcolo.dir/Observer.cpp.obj: C:/Users/cosim/Desktop/Lab_Progra
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/Subject.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/mainwindow.h
 
-CMakeFiles/FoglioCalcolo.dir/Subject.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/Subject.cpp \
-  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/Observer.h \
-  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/Subject.h
-
 CMakeFiles/FoglioCalcolo.dir/main.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/main.cpp \
   C:/msys64/mingw64/include/QtCore/qalgorithms.h \
   C:/msys64/mingw64/include/QtCore/qarraydata.h \
@@ -1014,24 +1010,17 @@ CMakeFiles/FoglioCalcolo.dir/mainwindow.cpp.obj: C:/Users/cosim/Desktop/Lab_Prog
   C:/msys64/mingw64/include/QtGui/qtransform.h \
   C:/msys64/mingw64/include/QtGui/qwindowdefs.h \
   C:/msys64/mingw64/include/QtGui/qwindowdefs_win.h \
-  C:/msys64/mingw64/include/QtWidgets/QAction \
   C:/msys64/mingw64/include/QtWidgets/QApplication \
   C:/msys64/mingw64/include/QtWidgets/QLabel \
   C:/msys64/mingw64/include/QtWidgets/QLineEdit \
   C:/msys64/mingw64/include/QtWidgets/QMainWindow \
-  C:/msys64/mingw64/include/QtWidgets/QMenu \
-  C:/msys64/mingw64/include/QtWidgets/QMenuBar \
   C:/msys64/mingw64/include/QtWidgets/QStatusBar \
   C:/msys64/mingw64/include/QtWidgets/QWidget \
-  C:/msys64/mingw64/include/QtWidgets/qaction.h \
-  C:/msys64/mingw64/include/QtWidgets/qactiongroup.h \
   C:/msys64/mingw64/include/QtWidgets/qapplication.h \
   C:/msys64/mingw64/include/QtWidgets/qframe.h \
   C:/msys64/mingw64/include/QtWidgets/qlabel.h \
   C:/msys64/mingw64/include/QtWidgets/qlineedit.h \
   C:/msys64/mingw64/include/QtWidgets/qmainwindow.h \
-  C:/msys64/mingw64/include/QtWidgets/qmenu.h \
-  C:/msys64/mingw64/include/QtWidgets/qmenubar.h \
   C:/msys64/mingw64/include/QtWidgets/qsizepolicy.h \
   C:/msys64/mingw64/include/QtWidgets/qstatusbar.h \
   C:/msys64/mingw64/include/QtWidgets/qtabwidget.h \
@@ -1264,8 +1253,6 @@ C:/msys64/mingw64/include/QtWidgets/QStatusBar:
 
 C:/msys64/mingw64/include/QtWidgets/QLabel:
 
-C:/msys64/mingw64/include/QtWidgets/QAction:
-
 C:/msys64/mingw64/include/QtGui/qtextoption.h:
 
 C:/msys64/mingw64/include/QtCore/QVariant:
@@ -1318,8 +1305,6 @@ C:/msys64/mingw64/include/stdarg.h:
 
 C:/msys64/mingw64/include/sec_api/wchar_s.h:
 
-C:/msys64/mingw64/include/QtWidgets/qmenubar.h:
-
 C:/msys64/mingw64/include/sec_api/sys/timeb_s.h:
 
 C:/msys64/mingw64/include/sec_api/string_s.h:
@@ -1331,8 +1316,6 @@ C:/msys64/mingw64/include/sec_api/stdio_s.h:
 C:/msys64/mingw64/include/pthread_unistd.h:
 
 C:/msys64/mingw64/include/pthread_time.h:
-
-C:/msys64/mingw64/include/QtWidgets/qaction.h:
 
 C:/msys64/mingw64/include/pthread_compat.h:
 
@@ -1424,8 +1407,6 @@ C:/msys64/mingw64/include/QtCore/qatomic_cxx11.h:
 
 C:/msys64/mingw64/include/QtWidgets/qtwidgets-config.h:
 
-C:/msys64/mingw64/include/QtWidgets/QMenu:
-
 C:/msys64/mingw64/include/QtGui/qwindowdefs_win.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/bits/memory_resource.h:
@@ -1473,8 +1454,6 @@ C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h:
 C:/msys64/mingw64/include/corecrt_wstdlib.h:
 
 C:/msys64/mingw64/include/QtGui/qbrush.h:
-
-C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/Subject.cpp:
 
 C:/msys64/mingw64/include/c++/13.2.0/bits/stl_multimap.h:
 
@@ -1534,8 +1513,6 @@ C:/msys64/mingw64/include/QtCore/qcontainerfwd.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/bits/localefwd.h:
 
-C:/msys64/mingw64/include/QtWidgets/qmenu.h:
-
 C:/msys64/mingw64/include/_mingw_secapi.h:
 
 C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/Observer.h:
@@ -1589,8 +1566,6 @@ C:/msys64/mingw64/include/c++/13.2.0/bit:
 C:/msys64/mingw64/include/QtGui/qcolor.h:
 
 C:/msys64/mingw64/include/QtCore/qobjectdefs_impl.h:
-
-C:/msys64/mingw64/include/QtWidgets/QMenuBar:
 
 C:/msys64/mingw64/include/QtGui/qrgb.h:
 
@@ -1741,8 +1716,6 @@ C:/msys64/mingw64/include/c++/13.2.0/bits/nested_exception.h:
 C:/msys64/mingw64/include/c++/13.2.0/bits/node_handle.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/bits/parse_numbers.h:
-
-C:/msys64/mingw64/include/QtWidgets/qactiongroup.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/memory:
 

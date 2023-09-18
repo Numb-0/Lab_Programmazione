@@ -606,11 +606,6 @@ CMakeFiles/FoglioCalcolo.dir/Observer.cpp.obj
  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/Subject.h
  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/mainwindow.h
 
-CMakeFiles/FoglioCalcolo.dir/Subject.cpp.obj
- C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/Subject.cpp
- C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/Observer.h
- C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/Subject.h
-
 CMakeFiles/FoglioCalcolo.dir/main.cpp.obj
  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/main.cpp
  C:/msys64/mingw64/include/QtCore/qalgorithms.h
@@ -1019,24 +1014,17 @@ CMakeFiles/FoglioCalcolo.dir/mainwindow.cpp.obj
  C:/msys64/mingw64/include/QtGui/qtransform.h
  C:/msys64/mingw64/include/QtGui/qwindowdefs.h
  C:/msys64/mingw64/include/QtGui/qwindowdefs_win.h
- C:/msys64/mingw64/include/QtWidgets/QAction
  C:/msys64/mingw64/include/QtWidgets/QApplication
  C:/msys64/mingw64/include/QtWidgets/QLabel
  C:/msys64/mingw64/include/QtWidgets/QLineEdit
  C:/msys64/mingw64/include/QtWidgets/QMainWindow
- C:/msys64/mingw64/include/QtWidgets/QMenu
- C:/msys64/mingw64/include/QtWidgets/QMenuBar
  C:/msys64/mingw64/include/QtWidgets/QStatusBar
  C:/msys64/mingw64/include/QtWidgets/QWidget
- C:/msys64/mingw64/include/QtWidgets/qaction.h
- C:/msys64/mingw64/include/QtWidgets/qactiongroup.h
  C:/msys64/mingw64/include/QtWidgets/qapplication.h
  C:/msys64/mingw64/include/QtWidgets/qframe.h
  C:/msys64/mingw64/include/QtWidgets/qlabel.h
  C:/msys64/mingw64/include/QtWidgets/qlineedit.h
  C:/msys64/mingw64/include/QtWidgets/qmainwindow.h
- C:/msys64/mingw64/include/QtWidgets/qmenu.h
- C:/msys64/mingw64/include/QtWidgets/qmenubar.h
  C:/msys64/mingw64/include/QtWidgets/qsizepolicy.h
  C:/msys64/mingw64/include/QtWidgets/qstatusbar.h
  C:/msys64/mingw64/include/QtWidgets/qtabwidget.h

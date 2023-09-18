@@ -19,7 +19,6 @@ set(PROJECT_SOURCES
     mainwindow.ui
     Observer.cpp
     Observer.h
-    Subject.cpp
     Subject.h
 )
 

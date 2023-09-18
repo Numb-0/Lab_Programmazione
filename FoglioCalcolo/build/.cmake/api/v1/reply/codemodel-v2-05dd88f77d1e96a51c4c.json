@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-145e558448ed92077e12.json",
+					"jsonFile" : "directory-.-Debug-b0360f1ebdba990f079e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -42,7 +42,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "FoglioCalcolo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FoglioCalcolo-Debug-8112b4820d9d6d71d51a.json",
+					"jsonFile" : "target-FoglioCalcolo-Debug-7a77bc9a58b5943412c1.json",
 					"name" : "FoglioCalcolo",
 					"projectIndex" : 0
 				},

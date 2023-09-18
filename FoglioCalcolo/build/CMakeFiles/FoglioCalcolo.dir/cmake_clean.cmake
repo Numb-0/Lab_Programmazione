@@ -6,8 +6,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/FoglioCalcolo.dir/FoglioCalcolo_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/FoglioCalcolo.dir/Observer.cpp.obj"
   "CMakeFiles/FoglioCalcolo.dir/Observer.cpp.obj.d"
-  "CMakeFiles/FoglioCalcolo.dir/Subject.cpp.obj"
-  "CMakeFiles/FoglioCalcolo.dir/Subject.cpp.obj.d"
   "CMakeFiles/FoglioCalcolo.dir/main.cpp.obj"
   "CMakeFiles/FoglioCalcolo.dir/main.cpp.obj.d"
   "CMakeFiles/FoglioCalcolo.dir/mainwindow.cpp.obj"
