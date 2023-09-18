@@ -1,0 +1,8 @@
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/CMakeFiles/FoglioCalcolo.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/CMakeFiles/edit_cache.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/CMakeFiles/rebuild_cache.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/CMakeFiles/list_install_components.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/CMakeFiles/install.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/CMakeFiles/install/local.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/CMakeFiles/install/strip.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/CMakeFiles/FoglioCalcolo_autogen.dir

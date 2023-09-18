@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalcolo.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FoglioCalcolo.dir\\FoglioCalcolo_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalcolo\\build\\FoglioCalcolo_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/FoglioCalcolo_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/FoglioCalcolo.dir/FoglioCalcolo_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalcolo.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FoglioCalcolo.dir\\main.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalcolo\\main.cpp",
+  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/main.cpp",
+  "output": "CMakeFiles/FoglioCalcolo.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalcolo.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FoglioCalcolo.dir\\mainwindow.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalcolo\\mainwindow.cpp",
+  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/mainwindow.cpp",
+  "output": "CMakeFiles/FoglioCalcolo.dir/mainwindow.cpp.obj"
+},
+{
+  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalcolo.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FoglioCalcolo.dir\\Observer.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalcolo\\Observer.cpp",
+  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/Observer.cpp",
+  "output": "CMakeFiles/FoglioCalcolo.dir/Observer.cpp.obj"
+},
+{
+  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalcolo.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FoglioCalcolo.dir\\Subject.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalcolo\\Subject.cpp",
+  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/Subject.cpp",
+  "output": "CMakeFiles/FoglioCalcolo.dir/Subject.cpp.obj"
+}
+]

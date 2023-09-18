@@ -1,0 +1,9 @@
+C:/Users/cosim/Desktop/Lab_Programmazione/build-FoglioCalcolo-Desktop_Qt_5_15_10_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/FoglioCalcolo.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/build-FoglioCalcolo-Desktop_Qt_5_15_10_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/edit_cache.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/build-FoglioCalcolo-Desktop_Qt_5_15_10_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/build-FoglioCalcolo-Desktop_Qt_5_15_10_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/list_install_components.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/build-FoglioCalcolo-Desktop_Qt_5_15_10_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/install.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/build-FoglioCalcolo-Desktop_Qt_5_15_10_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/install/local.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/build-FoglioCalcolo-Desktop_Qt_5_15_10_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/install/strip.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/build-FoglioCalcolo-Desktop_Qt_5_15_10_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/FoglioCalcolo_autogen_timestamp_deps.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/build-FoglioCalcolo-Desktop_Qt_5_15_10_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/FoglioCalcolo_autogen.dir
