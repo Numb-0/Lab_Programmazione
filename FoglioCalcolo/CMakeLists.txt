@@ -8,6 +8,7 @@ set(CMAKE_AUTORCC ON)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+cmake_policy(SET CMP0135 NEW)
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
@@ -20,6 +21,7 @@ set(PROJECT_SOURCES
     Observer.cpp
     Observer.h
     Subject.h
+    mathHeader.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -71,3 +73,16 @@ install(TARGETS FoglioCalcolo
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(FoglioCalcolo)
 endif()
+
+# Gtest
+include(FetchContent)
+FetchContent_Declare(
+  googletest
+  # Specify the commit you depend on and update it regularly.
+  URL https://github.com/google/googletest/archive/5376968f6948923e2411081fd9372e71a59d8e77.zip
+)
+# For Windows: Prevent overriding the parent project's compiler/linker settings
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+FetchContent_MakeAvailable(googletest)
+add_executable(Gtest Gtest/test1.cpp)
+target_link_libraries(Gtest gtest_main Qt${QT_VERSION_MAJOR}::Widgets)

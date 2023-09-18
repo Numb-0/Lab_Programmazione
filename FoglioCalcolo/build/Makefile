@@ -174,6 +174,19 @@ FoglioCalcolo/fast:
 .PHONY : FoglioCalcolo/fast
 
 #=============================================================================
+# Target rules for targets named Gtest
+
+# Build rule for target.
+Gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Gtest
+.PHONY : Gtest
+
+# fast build rule for target.
+Gtest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gtest.dir\build.make CMakeFiles/Gtest.dir/build
+.PHONY : Gtest/fast
+
+#=============================================================================
 # Target rules for targets named FoglioCalcolo_autogen
 
 # Build rule for target.
@@ -185,6 +198,123 @@ FoglioCalcolo_autogen: cmake_check_build_system
 FoglioCalcolo_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoglioCalcolo_autogen.dir\build.make CMakeFiles/FoglioCalcolo_autogen.dir/build
 .PHONY : FoglioCalcolo_autogen/fast
+
+#=============================================================================
+# Target rules for targets named Gtest_autogen
+
+# Build rule for target.
+Gtest_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Gtest_autogen
+.PHONY : Gtest_autogen
+
+# fast build rule for target.
+Gtest_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gtest_autogen.dir\build.make CMakeFiles/Gtest_autogen.dir/build
+.PHONY : Gtest_autogen/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gmock_autogen
+
+# Build rule for target.
+gmock_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_autogen
+.PHONY : gmock_autogen
+
+# fast build rule for target.
+gmock_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_autogen.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_autogen.dir/build
+.PHONY : gmock_autogen/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main_autogen
+
+# Build rule for target.
+gmock_main_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_main_autogen
+.PHONY : gmock_main_autogen
+
+# fast build rule for target.
+gmock_main_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main_autogen.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main_autogen.dir/build
+.PHONY : gmock_main_autogen/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest_autogen
+
+# Build rule for target.
+gtest_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_autogen
+.PHONY : gtest_autogen
+
+# fast build rule for target.
+gtest_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_autogen.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_autogen.dir/build
+.PHONY : gtest_autogen/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main_autogen
+
+# Build rule for target.
+gtest_main_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_main_autogen
+.PHONY : gtest_main_autogen
+
+# fast build rule for target.
+gtest_main_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main_autogen.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main_autogen.dir/build
+.PHONY : gtest_main_autogen/fast
 
 FoglioCalcolo_autogen/mocs_compilation.obj: FoglioCalcolo_autogen/mocs_compilation.cpp.obj
 .PHONY : FoglioCalcolo_autogen/mocs_compilation.obj
@@ -209,6 +339,54 @@ FoglioCalcolo_autogen/mocs_compilation.s: FoglioCalcolo_autogen/mocs_compilation
 FoglioCalcolo_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoglioCalcolo.dir\build.make CMakeFiles/FoglioCalcolo.dir/FoglioCalcolo_autogen/mocs_compilation.cpp.s
 .PHONY : FoglioCalcolo_autogen/mocs_compilation.cpp.s
+
+Gtest/test1.obj: Gtest/test1.cpp.obj
+.PHONY : Gtest/test1.obj
+
+# target to build an object file
+Gtest/test1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gtest.dir\build.make CMakeFiles/Gtest.dir/Gtest/test1.cpp.obj
+.PHONY : Gtest/test1.cpp.obj
+
+Gtest/test1.i: Gtest/test1.cpp.i
+.PHONY : Gtest/test1.i
+
+# target to preprocess a source file
+Gtest/test1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gtest.dir\build.make CMakeFiles/Gtest.dir/Gtest/test1.cpp.i
+.PHONY : Gtest/test1.cpp.i
+
+Gtest/test1.s: Gtest/test1.cpp.s
+.PHONY : Gtest/test1.s
+
+# target to generate assembly for a file
+Gtest/test1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gtest.dir\build.make CMakeFiles/Gtest.dir/Gtest/test1.cpp.s
+.PHONY : Gtest/test1.cpp.s
+
+Gtest_autogen/mocs_compilation.obj: Gtest_autogen/mocs_compilation.cpp.obj
+.PHONY : Gtest_autogen/mocs_compilation.obj
+
+# target to build an object file
+Gtest_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gtest.dir\build.make CMakeFiles/Gtest.dir/Gtest_autogen/mocs_compilation.cpp.obj
+.PHONY : Gtest_autogen/mocs_compilation.cpp.obj
+
+Gtest_autogen/mocs_compilation.i: Gtest_autogen/mocs_compilation.cpp.i
+.PHONY : Gtest_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+Gtest_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gtest.dir\build.make CMakeFiles/Gtest.dir/Gtest_autogen/mocs_compilation.cpp.i
+.PHONY : Gtest_autogen/mocs_compilation.cpp.i
+
+Gtest_autogen/mocs_compilation.s: Gtest_autogen/mocs_compilation.cpp.s
+.PHONY : Gtest_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+Gtest_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gtest.dir\build.make CMakeFiles/Gtest.dir/Gtest_autogen/mocs_compilation.cpp.s
+.PHONY : Gtest_autogen/mocs_compilation.cpp.s
 
 Observer.obj: Observer.cpp.obj
 .PHONY : Observer.obj
@@ -295,10 +473,26 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... FoglioCalcolo_autogen
+	@echo ... Gtest_autogen
+	@echo ... gmock_autogen
+	@echo ... gmock_main_autogen
+	@echo ... gtest_autogen
+	@echo ... gtest_main_autogen
 	@echo ... FoglioCalcolo
+	@echo ... Gtest
+	@echo ... gmock
+	@echo ... gmock_main
+	@echo ... gtest
+	@echo ... gtest_main
 	@echo ... FoglioCalcolo_autogen/mocs_compilation.obj
 	@echo ... FoglioCalcolo_autogen/mocs_compilation.i
 	@echo ... FoglioCalcolo_autogen/mocs_compilation.s
+	@echo ... Gtest/test1.obj
+	@echo ... Gtest/test1.i
+	@echo ... Gtest/test1.s
+	@echo ... Gtest_autogen/mocs_compilation.obj
+	@echo ... Gtest_autogen/mocs_compilation.i
+	@echo ... Gtest_autogen/mocs_compilation.s
 	@echo ... Observer.obj
 	@echo ... Observer.i
 	@echo ... Observer.s

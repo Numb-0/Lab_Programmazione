@@ -1,5 +1,5 @@
 #include "mainwindow.h"
-#include "./ui_mainwindow.h"
+#include "mathHeader.h"
 
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) , ui(new Ui::MainWindow)
 {
@@ -27,7 +27,7 @@ void MainWindow::convertData()
 
 void MainWindow::refreshLabels()
 {
-    ui->MaxOut->setText(QString::number(*max_element(numbers.begin(), numbers.end())));
+    ui->MaxOut->setText(QString::number(getVectorMax(numbers)));
     ui->MinOut->setText(QString::number(*min_element(numbers.begin(), numbers.end())));
     ui->MeanOut->setText(QString::number(std::reduce(numbers.begin(), numbers.end())/numbers.size()));
     ui->SommaOut->setText(QString::number(std::reduce(numbers.begin(), numbers.end())));

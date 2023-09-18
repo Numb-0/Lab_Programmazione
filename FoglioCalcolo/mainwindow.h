@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <iostream>
+#include "./ui_mainwindow.h"
 #include "Subject.h"
 
 
@@ -25,7 +25,7 @@ public:
     void convertData();
     void refreshLabels();
     void clearNumbers();
-
+    
 private slots:
     void setChanges();
 

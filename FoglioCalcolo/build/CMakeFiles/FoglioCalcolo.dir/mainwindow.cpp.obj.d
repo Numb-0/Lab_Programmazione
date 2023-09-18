@@ -279,22 +279,6 @@ CMakeFiles/FoglioCalcolo.dir/mainwindow.cpp.obj: \
  C:/msys64/mingw64/include/QtGui/qkeysequence.h \
  C:/msys64/mingw64/include/QtWidgets/qtabwidget.h \
  C:/msys64/mingw64/include/QtGui/qicon.h \
- C:/msys64/mingw64/include/c++/13.2.0/iostream \
- C:/msys64/mingw64/include/c++/13.2.0/ostream \
- C:/msys64/mingw64/include/c++/13.2.0/ios \
- C:/msys64/mingw64/include/c++/13.2.0/bits/basic_ios.h \
- C:/msys64/mingw64/include/c++/13.2.0/bits/locale_facets.h \
- C:/msys64/mingw64/include/c++/13.2.0/cwctype \
- C:/msys64/mingw64/include/wctype.h \
- C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
- C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
- C:/msys64/mingw64/include/c++/13.2.0/bits/locale_facets.tcc \
- C:/msys64/mingw64/include/c++/13.2.0/bits/basic_ios.tcc \
- C:/msys64/mingw64/include/c++/13.2.0/bits/ostream.tcc \
- C:/msys64/mingw64/include/c++/13.2.0/istream \
- C:/msys64/mingw64/include/c++/13.2.0/bits/istream.tcc \
- C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcolo\Subject.h \
- C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcolo\Observer.h \
  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/FoglioCalcolo_autogen/include/ui_mainwindow.h \
  C:/msys64/mingw64/include/QtCore/QVariant \
  C:/msys64/mingw64/include/QtCore/qvariant.h \
@@ -322,4 +306,7 @@ CMakeFiles/FoglioCalcolo.dir/mainwindow.cpp.obj: \
  C:/msys64/mingw64/include/QtWidgets/QStatusBar \
  C:/msys64/mingw64/include/QtWidgets/qstatusbar.h \
  C:/msys64/mingw64/include/QtWidgets/QWidget \
- C:/msys64/mingw64/include/QtWidgets/qwidget.h
+ C:/msys64/mingw64/include/QtWidgets/qwidget.h \
+ C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcolo\Subject.h \
+ C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcolo\Observer.h \
+ C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcolo\mathHeader.h

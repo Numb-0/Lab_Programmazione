@@ -131,7 +131,6 @@ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/FoglioCalcolo_auto
   C:/msys64/mingw64/include/c++/13.2.0/bits/hash_bytes.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/invoke.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/ios_base.h \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/istream.tcc \
   C:/msys64/mingw64/include/c++/13.2.0/bits/iterator_concepts.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/list.tcc \
   C:/msys64/mingw64/include/c++/13.2.0/bits/locale_classes.h \
@@ -222,8 +221,6 @@ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/FoglioCalcolo_auto
   C:/msys64/mingw64/include/c++/13.2.0/initializer_list \
   C:/msys64/mingw64/include/c++/13.2.0/ios \
   C:/msys64/mingw64/include/c++/13.2.0/iosfwd \
-  C:/msys64/mingw64/include/c++/13.2.0/iostream \
-  C:/msys64/mingw64/include/c++/13.2.0/istream \
   C:/msys64/mingw64/include/c++/13.2.0/iterator \
   C:/msys64/mingw64/include/c++/13.2.0/limits \
   C:/msys64/mingw64/include/c++/13.2.0/list \

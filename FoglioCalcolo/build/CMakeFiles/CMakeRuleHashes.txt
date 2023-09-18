@@ -1,2 +1,7 @@
 # Hashes of file build rules.
 52bc6bdc0fdbad140a7efbf6e454c6f3 CMakeFiles/FoglioCalcolo_autogen
+d3587b498b34084907e20bd9f8b7b08c CMakeFiles/Gtest_autogen
+594f3627567dc36c2fbec9503f574253 _deps/googletest-build/googlemock/CMakeFiles/gmock_autogen
+b00d9a1ee8769a386127c1db295026c6 _deps/googletest-build/googlemock/CMakeFiles/gmock_main_autogen
+ecb2f600dd78521838f4d63b68ef9a13 _deps/googletest-build/googletest/CMakeFiles/gtest_autogen
+49ab6ae68b170770f4ba74ad1e607538 _deps/googletest-build/googletest/CMakeFiles/gtest_main_autogen
