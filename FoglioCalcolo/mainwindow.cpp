@@ -28,9 +28,9 @@ void MainWindow::convertData()
 void MainWindow::refreshLabels()
 {
     ui->MaxOut->setText(QString::number(getVectorMax(numbers)));
-    ui->MinOut->setText(QString::number(*min_element(numbers.begin(), numbers.end())));
-    ui->MeanOut->setText(QString::number(std::reduce(numbers.begin(), numbers.end())/numbers.size()));
-    ui->SommaOut->setText(QString::number(std::reduce(numbers.begin(), numbers.end())));
+    ui->MinOut->setText(QString::number(getVectorMin(numbers)));
+    ui->MeanOut->setText(QString::number(getVectorMean(numbers)));
+    ui->SommaOut->setText(QString::number(getVectorSomma(numbers)));
 }
 
 void MainWindow::clearNumbers()
