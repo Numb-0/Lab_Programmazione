@@ -31,9 +31,9 @@
 },
 {
   "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/Gtest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Gtest.dir\\Gtest\\test1.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalcolo\\Gtest\\test1.cpp",
-  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/Gtest/test1.cpp",
-  "output": "CMakeFiles/Gtest.dir/Gtest/test1.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/Gtest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Gtest.dir\\Gtest\\testMathFunctions.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalcolo\\Gtest\\testMathFunctions.cpp",
+  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/Gtest/testMathFunctions.cpp",
+  "output": "CMakeFiles/Gtest.dir/Gtest/testMathFunctions.cpp.obj"
 },
 {
   "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/_deps/googletest-build/googlemock",

@@ -340,29 +340,29 @@ FoglioCalcolo_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoglioCalcolo.dir\build.make CMakeFiles/FoglioCalcolo.dir/FoglioCalcolo_autogen/mocs_compilation.cpp.s
 .PHONY : FoglioCalcolo_autogen/mocs_compilation.cpp.s
 
-Gtest/test1.obj: Gtest/test1.cpp.obj
-.PHONY : Gtest/test1.obj
+Gtest/testMathFunctions.obj: Gtest/testMathFunctions.cpp.obj
+.PHONY : Gtest/testMathFunctions.obj
 
 # target to build an object file
-Gtest/test1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gtest.dir\build.make CMakeFiles/Gtest.dir/Gtest/test1.cpp.obj
-.PHONY : Gtest/test1.cpp.obj
+Gtest/testMathFunctions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gtest.dir\build.make CMakeFiles/Gtest.dir/Gtest/testMathFunctions.cpp.obj
+.PHONY : Gtest/testMathFunctions.cpp.obj
 
-Gtest/test1.i: Gtest/test1.cpp.i
-.PHONY : Gtest/test1.i
+Gtest/testMathFunctions.i: Gtest/testMathFunctions.cpp.i
+.PHONY : Gtest/testMathFunctions.i
 
 # target to preprocess a source file
-Gtest/test1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gtest.dir\build.make CMakeFiles/Gtest.dir/Gtest/test1.cpp.i
-.PHONY : Gtest/test1.cpp.i
+Gtest/testMathFunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gtest.dir\build.make CMakeFiles/Gtest.dir/Gtest/testMathFunctions.cpp.i
+.PHONY : Gtest/testMathFunctions.cpp.i
 
-Gtest/test1.s: Gtest/test1.cpp.s
-.PHONY : Gtest/test1.s
+Gtest/testMathFunctions.s: Gtest/testMathFunctions.cpp.s
+.PHONY : Gtest/testMathFunctions.s
 
 # target to generate assembly for a file
-Gtest/test1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gtest.dir\build.make CMakeFiles/Gtest.dir/Gtest/test1.cpp.s
-.PHONY : Gtest/test1.cpp.s
+Gtest/testMathFunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gtest.dir\build.make CMakeFiles/Gtest.dir/Gtest/testMathFunctions.cpp.s
+.PHONY : Gtest/testMathFunctions.cpp.s
 
 Gtest_autogen/mocs_compilation.obj: Gtest_autogen/mocs_compilation.cpp.obj
 .PHONY : Gtest_autogen/mocs_compilation.obj
@@ -487,9 +487,9 @@ help:
 	@echo ... FoglioCalcolo_autogen/mocs_compilation.obj
 	@echo ... FoglioCalcolo_autogen/mocs_compilation.i
 	@echo ... FoglioCalcolo_autogen/mocs_compilation.s
-	@echo ... Gtest/test1.obj
-	@echo ... Gtest/test1.i
-	@echo ... Gtest/test1.s
+	@echo ... Gtest/testMathFunctions.obj
+	@echo ... Gtest/testMathFunctions.i
+	@echo ... Gtest/testMathFunctions.s
 	@echo ... Gtest_autogen/mocs_compilation.obj
 	@echo ... Gtest_autogen/mocs_compilation.i
 	@echo ... Gtest_autogen/mocs_compilation.s

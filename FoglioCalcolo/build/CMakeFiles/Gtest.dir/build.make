@@ -83,31 +83,31 @@ CMakeFiles/Gtest.dir/Gtest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Gtest.dir/Gtest_autogen/mocs_compilation.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcolo\build\Gtest_autogen\mocs_compilation.cpp -o CMakeFiles\Gtest.dir\Gtest_autogen\mocs_compilation.cpp.s
 
-CMakeFiles/Gtest.dir/Gtest/test1.cpp.obj: CMakeFiles/Gtest.dir/flags.make
-CMakeFiles/Gtest.dir/Gtest/test1.cpp.obj: CMakeFiles/Gtest.dir/includes_CXX.rsp
-CMakeFiles/Gtest.dir/Gtest/test1.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/Gtest/test1.cpp
-CMakeFiles/Gtest.dir/Gtest/test1.cpp.obj: CMakeFiles/Gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcolo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Gtest.dir/Gtest/test1.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Gtest.dir/Gtest/test1.cpp.obj -MF CMakeFiles\Gtest.dir\Gtest\test1.cpp.obj.d -o CMakeFiles\Gtest.dir\Gtest\test1.cpp.obj -c C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcolo\Gtest\test1.cpp
+CMakeFiles/Gtest.dir/Gtest/testMathFunctions.cpp.obj: CMakeFiles/Gtest.dir/flags.make
+CMakeFiles/Gtest.dir/Gtest/testMathFunctions.cpp.obj: CMakeFiles/Gtest.dir/includes_CXX.rsp
+CMakeFiles/Gtest.dir/Gtest/testMathFunctions.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/Gtest/testMathFunctions.cpp
+CMakeFiles/Gtest.dir/Gtest/testMathFunctions.cpp.obj: CMakeFiles/Gtest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcolo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Gtest.dir/Gtest/testMathFunctions.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Gtest.dir/Gtest/testMathFunctions.cpp.obj -MF CMakeFiles\Gtest.dir\Gtest\testMathFunctions.cpp.obj.d -o CMakeFiles\Gtest.dir\Gtest\testMathFunctions.cpp.obj -c C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcolo\Gtest\testMathFunctions.cpp
 
-CMakeFiles/Gtest.dir/Gtest/test1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Gtest.dir/Gtest/test1.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcolo\Gtest\test1.cpp > CMakeFiles\Gtest.dir\Gtest\test1.cpp.i
+CMakeFiles/Gtest.dir/Gtest/testMathFunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Gtest.dir/Gtest/testMathFunctions.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcolo\Gtest\testMathFunctions.cpp > CMakeFiles\Gtest.dir\Gtest\testMathFunctions.cpp.i
 
-CMakeFiles/Gtest.dir/Gtest/test1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Gtest.dir/Gtest/test1.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcolo\Gtest\test1.cpp -o CMakeFiles\Gtest.dir\Gtest\test1.cpp.s
+CMakeFiles/Gtest.dir/Gtest/testMathFunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Gtest.dir/Gtest/testMathFunctions.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcolo\Gtest\testMathFunctions.cpp -o CMakeFiles\Gtest.dir\Gtest\testMathFunctions.cpp.s
 
 # Object files for target Gtest
 Gtest_OBJECTS = \
 "CMakeFiles/Gtest.dir/Gtest_autogen/mocs_compilation.cpp.obj" \
-"CMakeFiles/Gtest.dir/Gtest/test1.cpp.obj"
+"CMakeFiles/Gtest.dir/Gtest/testMathFunctions.cpp.obj"
 
 # External object files for target Gtest
 Gtest_EXTERNAL_OBJECTS =
 
 Gtest.exe: CMakeFiles/Gtest.dir/Gtest_autogen/mocs_compilation.cpp.obj
-Gtest.exe: CMakeFiles/Gtest.dir/Gtest/test1.cpp.obj
+Gtest.exe: CMakeFiles/Gtest.dir/Gtest/testMathFunctions.cpp.obj
 Gtest.exe: CMakeFiles/Gtest.dir/build.make
 Gtest.exe: lib/libgtest_main.a
 Gtest.exe: C:/msys64/mingw64/lib/libQt5Widgets.dll.a
