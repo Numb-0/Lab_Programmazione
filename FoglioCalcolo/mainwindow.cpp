@@ -25,9 +25,12 @@ MainWindow::~MainWindow()
 
 void MainWindow::convertData()
 {
-    numbers.push_back(ui->Val1->text().toFloat());
-    numbers.push_back(ui->Val2->text().toFloat());
-    numbers.push_back(ui->Val3->text().toFloat());
+    if (!ui->Val1->text().isEmpty())
+        numbers.push_back(ui->Val1->text().toFloat());
+    if (!ui->Val2->text().isEmpty())
+        numbers.push_back(ui->Val2->text().toFloat());
+    if (!ui->Val3->text().isEmpty())
+        numbers.push_back(ui->Val3->text().toFloat());
 }
 
 void MainWindow::refreshLabels()
