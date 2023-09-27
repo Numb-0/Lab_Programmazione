@@ -4,6 +4,7 @@
 #include <vector>
 #include <algorithm>
 #include <numeric>
+
 // support library for vector operation
 
 float getVectorMax(const std::vector<float>& v)

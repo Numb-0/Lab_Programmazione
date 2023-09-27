@@ -15,6 +15,11 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) , ui(new Ui::MainW
 MainWindow::~MainWindow()
 {
     // deallocate dynamic memory
+    // and Observers
+    for (auto obs : observers)
+    {
+        removeObserver(obs);
+    }
     delete ui;
 }
 
@@ -59,5 +64,6 @@ void MainWindow::notifyAll()
 
 void MainWindow::setChanges()
 {
+    // could have called the window funtions here
     notifyAll();
 }

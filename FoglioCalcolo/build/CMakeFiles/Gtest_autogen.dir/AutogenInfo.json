@@ -7,10 +7,10 @@
 	"CMAKE_LIST_FILES" : 
 	[
 		"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/CMakeLists.txt",
-		"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/CMakeFiles/3.27.4/CMakeSystem.cmake",
+		"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/CMakeFiles/3.27.6/CMakeSystem.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake",
-		"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/CMakeFiles/3.27.4/CMakeCXXCompiler.cmake",
+		"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/CMakeFiles/3.27.6/CMakeCXXCompiler.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -23,7 +23,7 @@
 		"C:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake",
-		"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/CMakeFiles/3.27.4/CMakeRCCompiler.cmake",
+		"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcolo/build/CMakeFiles/3.27.6/CMakeRCCompiler.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
