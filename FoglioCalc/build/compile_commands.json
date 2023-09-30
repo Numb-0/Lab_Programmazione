@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalc.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\FoglioCalc.dir\\FoglioCalc_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalc\\build\\FoglioCalc_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/build/FoglioCalc_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalc.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\FoglioCalc.dir\\main.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalc\\main.cpp",
+  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/main.cpp",
+  "output": "CMakeFiles/FoglioCalc.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalc.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\FoglioCalc.dir\\Window.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalc\\Window.cpp",
+  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/Window.cpp",
+  "output": "CMakeFiles/FoglioCalc.dir/Window.cpp.obj"
+},
+{
+  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalc.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\FoglioCalc.dir\\TableMath.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalc\\TableMath.cpp",
+  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/TableMath.cpp",
+  "output": "CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj"
+}
+]

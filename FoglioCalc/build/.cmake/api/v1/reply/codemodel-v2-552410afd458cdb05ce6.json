@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "FoglioCalc",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "FoglioCalc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FoglioCalc-Debug-db6890430ba98417a37d.json",
+					"name" : "FoglioCalc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FoglioCalc_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FoglioCalc_autogen-Debug-d7414e43385fd0cdc65b.json",
+					"name" : "FoglioCalc_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/build",
+		"source" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

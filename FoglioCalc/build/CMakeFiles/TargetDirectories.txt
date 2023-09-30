@@ -1,0 +1,4 @@
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/build/CMakeFiles/FoglioCalc.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/build/CMakeFiles/edit_cache.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/build/CMakeFiles/rebuild_cache.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/build/CMakeFiles/FoglioCalc_autogen.dir
