@@ -129,6 +129,19 @@ FoglioCalc/fast:
 .PHONY : FoglioCalc/fast
 
 #=============================================================================
+# Target rules for targets named MathTest
+
+# Build rule for target.
+MathTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MathTest
+.PHONY : MathTest
+
+# fast build rule for target.
+MathTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MathTest.dir\build.make CMakeFiles/MathTest.dir/build
+.PHONY : MathTest/fast
+
+#=============================================================================
 # Target rules for targets named FoglioCalc_autogen
 
 # Build rule for target.
@@ -140,6 +153,19 @@ FoglioCalc_autogen: cmake_check_build_system
 FoglioCalc_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoglioCalc_autogen.dir\build.make CMakeFiles/FoglioCalc_autogen.dir/build
 .PHONY : FoglioCalc_autogen/fast
+
+#=============================================================================
+# Target rules for targets named MathTest_autogen
+
+# Build rule for target.
+MathTest_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MathTest_autogen
+.PHONY : MathTest_autogen
+
+# fast build rule for target.
+MathTest_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MathTest_autogen.dir\build.make CMakeFiles/MathTest_autogen.dir/build
+.PHONY : MathTest_autogen/fast
 
 FoglioCalc_autogen/mocs_compilation.obj: FoglioCalc_autogen/mocs_compilation.cpp.obj
 .PHONY : FoglioCalc_autogen/mocs_compilation.obj
@@ -165,12 +191,37 @@ FoglioCalc_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoglioCalc.dir\build.make CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.s
 .PHONY : FoglioCalc_autogen/mocs_compilation.cpp.s
 
+MathTest_autogen/mocs_compilation.obj: MathTest_autogen/mocs_compilation.cpp.obj
+.PHONY : MathTest_autogen/mocs_compilation.obj
+
+# target to build an object file
+MathTest_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MathTest.dir\build.make CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.obj
+.PHONY : MathTest_autogen/mocs_compilation.cpp.obj
+
+MathTest_autogen/mocs_compilation.i: MathTest_autogen/mocs_compilation.cpp.i
+.PHONY : MathTest_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+MathTest_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MathTest.dir\build.make CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.i
+.PHONY : MathTest_autogen/mocs_compilation.cpp.i
+
+MathTest_autogen/mocs_compilation.s: MathTest_autogen/mocs_compilation.cpp.s
+.PHONY : MathTest_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+MathTest_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MathTest.dir\build.make CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.s
+.PHONY : MathTest_autogen/mocs_compilation.cpp.s
+
 TableMath.obj: TableMath.cpp.obj
 .PHONY : TableMath.obj
 
 # target to build an object file
 TableMath.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoglioCalc.dir\build.make CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MathTest.dir\build.make CMakeFiles/MathTest.dir/TableMath.cpp.obj
 .PHONY : TableMath.cpp.obj
 
 TableMath.i: TableMath.cpp.i
@@ -179,6 +230,7 @@ TableMath.i: TableMath.cpp.i
 # target to preprocess a source file
 TableMath.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoglioCalc.dir\build.make CMakeFiles/FoglioCalc.dir/TableMath.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MathTest.dir\build.make CMakeFiles/MathTest.dir/TableMath.cpp.i
 .PHONY : TableMath.cpp.i
 
 TableMath.s: TableMath.cpp.s
@@ -187,7 +239,32 @@ TableMath.s: TableMath.cpp.s
 # target to generate assembly for a file
 TableMath.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoglioCalc.dir\build.make CMakeFiles/FoglioCalc.dir/TableMath.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MathTest.dir\build.make CMakeFiles/MathTest.dir/TableMath.cpp.s
 .PHONY : TableMath.cpp.s
+
+TestMath.obj: TestMath.cpp.obj
+.PHONY : TestMath.obj
+
+# target to build an object file
+TestMath.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MathTest.dir\build.make CMakeFiles/MathTest.dir/TestMath.cpp.obj
+.PHONY : TestMath.cpp.obj
+
+TestMath.i: TestMath.cpp.i
+.PHONY : TestMath.i
+
+# target to preprocess a source file
+TestMath.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MathTest.dir\build.make CMakeFiles/MathTest.dir/TestMath.cpp.i
+.PHONY : TestMath.cpp.i
+
+TestMath.s: TestMath.cpp.s
+.PHONY : TestMath.s
+
+# target to generate assembly for a file
+TestMath.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MathTest.dir\build.make CMakeFiles/MathTest.dir/TestMath.cpp.s
+.PHONY : TestMath.cpp.s
 
 Window.obj: Window.cpp.obj
 .PHONY : Window.obj
@@ -246,13 +323,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... FoglioCalc_autogen
+	@echo ... MathTest_autogen
 	@echo ... FoglioCalc
+	@echo ... MathTest
 	@echo ... FoglioCalc_autogen/mocs_compilation.obj
 	@echo ... FoglioCalc_autogen/mocs_compilation.i
 	@echo ... FoglioCalc_autogen/mocs_compilation.s
+	@echo ... MathTest_autogen/mocs_compilation.obj
+	@echo ... MathTest_autogen/mocs_compilation.i
+	@echo ... MathTest_autogen/mocs_compilation.s
 	@echo ... TableMath.obj
 	@echo ... TableMath.i
 	@echo ... TableMath.s
+	@echo ... TestMath.obj
+	@echo ... TestMath.i
+	@echo ... TestMath.s
 	@echo ... Window.obj
 	@echo ... Window.i
 	@echo ... Window.s

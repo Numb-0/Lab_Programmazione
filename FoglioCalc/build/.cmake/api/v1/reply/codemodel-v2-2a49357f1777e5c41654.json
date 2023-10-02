@@ -9,14 +9,16 @@
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.7"
+						"string" : "3.16"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -32,7 +34,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -41,7 +45,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "FoglioCalc::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FoglioCalc-Debug-db6890430ba98417a37d.json",
+					"jsonFile" : "target-FoglioCalc-Debug-a86fb142bbdfe868153a.json",
 					"name" : "FoglioCalc",
 					"projectIndex" : 0
 				},
@@ -50,6 +54,20 @@
 					"id" : "FoglioCalc_autogen::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-FoglioCalc_autogen-Debug-d7414e43385fd0cdc65b.json",
 					"name" : "FoglioCalc_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MathTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MathTest-Debug-a4dabfc3285d06cb1f5b.json",
+					"name" : "MathTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MathTest_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MathTest_autogen-Debug-71f93959713f36e53d9b.json",
+					"name" : "MathTest_autogen",
 					"projectIndex" : 0
 				}
 			]

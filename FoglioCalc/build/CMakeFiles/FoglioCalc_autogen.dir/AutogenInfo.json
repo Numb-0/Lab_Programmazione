@@ -59,7 +59,10 @@
 		"C:/msys64/mingw64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake",
 		"C:/msys64/mingw64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"C:/msys64/mingw64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
-		"C:/msys64/mingw64/share/cmake/Modules/CMakeParseArguments.cmake"
+		"C:/msys64/mingw64/share/cmake/Modules/CMakeParseArguments.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Test/Qt5TestConfigVersion.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Test/Qt5TestConfig.cmake",
+		"C:/msys64/mingw64/lib/cmake/Qt5Test/Qt5TestConfigExtras.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc",
 	"DEP_FILE" : "",
@@ -110,6 +113,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/build",
+		"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc",
 		"C:/msys64/mingw64/include/QtWidgets",
 		"C:/msys64/mingw64/include/QtGui",
 		"C:/msys64/mingw64/include/QtCore",
@@ -127,7 +132,7 @@
 	"MOC_PREDEFS_CMD" : 
 	[
 		"C:/msys64/mingw64/bin/g++.exe",
-		"-std=gnu++11",
+		"-std=gnu++17",
 		"-dM",
 		"-E",
 		"-c",

@@ -10,6 +10,7 @@ CMakeFiles/FoglioCalc.dir/Window.cpp.obj: \
  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/os_defines.h \
  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ C:/msys64/mingw64/include/c++/13.2.0/pstl/pstl_config.h \
  C:/msys64/mingw64/include/c++/13.2.0/cstddef \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
  C:/msys64/mingw64/include/stddef.h C:/msys64/mingw64/include/crtdefs.h \
@@ -57,6 +58,7 @@ CMakeFiles/FoglioCalc.dir/Window.cpp.obj: \
  C:/msys64/mingw64/include/c++/13.2.0/bits/ptr_traits.h \
  C:/msys64/mingw64/include/c++/13.2.0/debug/debug.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/predefined_ops.h \
+ C:/msys64/mingw64/include/c++/13.2.0/bit \
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_algo.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/algorithmfwd.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_heap.h \
@@ -65,6 +67,8 @@ CMakeFiles/FoglioCalc.dir/Window.cpp.obj: \
  C:/msys64/mingw64/include/c++/13.2.0/new \
  C:/msys64/mingw64/include/c++/13.2.0/bits/exception.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_construct.h \
+ C:/msys64/mingw64/include/c++/13.2.0/pstl/glue_algorithm_defs.h \
+ C:/msys64/mingw64/include/c++/13.2.0/pstl/execution_defs.h \
  C:/msys64/mingw64/include/QtCore/qtypeinfo.h \
  C:/msys64/mingw64/include/QtCore/qsysinfo.h \
  C:/msys64/mingw64/include/QtCore/qlogging.h \
@@ -135,13 +139,19 @@ CMakeFiles/FoglioCalc.dir/Window.cpp.obj: \
  C:/msys64/mingw64/include/c++/13.2.0/bits/basic_string.h \
  C:/msys64/mingw64/include/c++/13.2.0/ext/alloc_traits.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/alloc_traits.h \
+ C:/msys64/mingw64/include/c++/13.2.0/string_view \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/functional_hash.h \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/hash_bytes.h \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/string_view.tcc \
  C:/msys64/mingw64/include/c++/13.2.0/ext/string_conversions.h \
  C:/msys64/mingw64/include/c++/13.2.0/cstdio \
  C:/msys64/mingw64/include/c++/13.2.0/cerrno \
  C:/msys64/mingw64/include/c++/13.2.0/bits/charconv.h \
- C:/msys64/mingw64/include/c++/13.2.0/bits/functional_hash.h \
- C:/msys64/mingw64/include/c++/13.2.0/bits/hash_bytes.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/basic_string.tcc \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/memory_resource.h \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/uses_allocator.h \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/uses_allocator_args.h \
+ C:/msys64/mingw64/include/c++/13.2.0/tuple \
  C:/msys64/mingw64/include/c++/13.2.0/iterator \
  C:/msys64/mingw64/include/c++/13.2.0/bits/stream_iterator.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/streambuf_iterator.h \
@@ -184,21 +194,29 @@ CMakeFiles/FoglioCalc.dir/Window.cpp.obj: \
  C:/msys64/mingw64/include/QtCore/qpair.h \
  C:/msys64/mingw64/include/c++/13.2.0/numeric \
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_numeric.h \
+ C:/msys64/mingw64/include/c++/13.2.0/pstl/glue_numeric_defs.h \
  C:/msys64/mingw64/include/c++/13.2.0/functional \
- C:/msys64/mingw64/include/c++/13.2.0/tuple \
- C:/msys64/mingw64/include/c++/13.2.0/bits/uses_allocator.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/std_function.h \
- C:/msys64/mingw64/include/QtCore/qvector.h \
- C:/msys64/mingw64/include/QtCore/qcontainertools_impl.h \
+ C:/msys64/mingw64/include/c++/13.2.0/unordered_map \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/unordered_map.h \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/hashtable.h \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/hashtable_policy.h \
+ C:/msys64/mingw64/include/c++/13.2.0/ext/aligned_buffer.h \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/enable_special_members.h \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/node_handle.h \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/erase_if.h \
  C:/msys64/mingw64/include/c++/13.2.0/vector \
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_uninitialized.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_vector.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_bvector.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/vector.tcc \
+ C:/msys64/mingw64/include/c++/13.2.0/array \
+ C:/msys64/mingw64/include/c++/13.2.0/compare \
+ C:/msys64/mingw64/include/QtCore/qvector.h \
+ C:/msys64/mingw64/include/QtCore/qcontainertools_impl.h \
  C:/msys64/mingw64/include/c++/13.2.0/list \
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_list.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/allocated_ptr.h \
- C:/msys64/mingw64/include/c++/13.2.0/ext/aligned_buffer.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/list.tcc \
  C:/msys64/mingw64/include/QtCore/qbytearraylist.h \
  C:/msys64/mingw64/include/QtCore/qstringlist.h \
@@ -212,7 +230,6 @@ CMakeFiles/FoglioCalc.dir/Window.cpp.obj: \
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_tree.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_map.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_multimap.h \
- C:/msys64/mingw64/include/c++/13.2.0/bits/erase_if.h \
  C:/msys64/mingw64/include/QtCore/qobject_impl.h \
  C:/msys64/mingw64/include/c++/13.2.0/chrono \
  C:/msys64/mingw64/include/c++/13.2.0/bits/chrono.h \
@@ -247,13 +264,13 @@ CMakeFiles/FoglioCalc.dir/Window.cpp.obj: \
  C:/msys64/mingw64/include/c++/13.2.0/memory \
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_raw_storage_iter.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/align.h \
- C:/msys64/mingw64/include/c++/13.2.0/bit \
  C:/msys64/mingw64/include/c++/13.2.0/bits/unique_ptr.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/shared_ptr.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/shared_ptr_base.h \
  C:/msys64/mingw64/include/c++/13.2.0/ext/concurrence.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/shared_ptr_atomic.h \
  C:/msys64/mingw64/include/c++/13.2.0/backward/auto_ptr.h \
+ C:/msys64/mingw64/include/c++/13.2.0/pstl/glue_memory_defs.h \
  C:/msys64/mingw64/include/QtGui/qfont.h \
  C:/msys64/mingw64/include/QtGui/qfontmetrics.h \
  C:/msys64/mingw64/include/QtGui/qfontinfo.h \
@@ -280,6 +297,7 @@ CMakeFiles/FoglioCalc.dir/Window.cpp.obj: \
  C:/msys64/mingw64/include/QtCore/QVariant \
  C:/msys64/mingw64/include/QtCore/qvariant.h \
  C:/msys64/mingw64/include/QtCore/qmap.h \
+ C:/msys64/mingw64/include/c++/13.2.0/variant \
  C:/msys64/mingw64/include/QtWidgets/QAction \
  C:/msys64/mingw64/include/QtWidgets/qaction.h \
  C:/msys64/mingw64/include/QtCore/qvariant.h \
@@ -343,4 +361,5 @@ CMakeFiles/FoglioCalc.dir/Window.cpp.obj: \
  C:/msys64/mingw64/include/QtWidgets/QHBoxLayout \
  C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\Observer.h \
  C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\TableMath.h \
- C:/msys64/mingw64/include/c++/13.2.0/map
+ C:/msys64/mingw64/include/c++/13.2.0/map \
+ C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\Subject.h

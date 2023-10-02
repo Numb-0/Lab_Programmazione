@@ -6,5 +6,5 @@ CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
 
 CXX_INCLUDES = @CMakeFiles/FoglioCalc.dir/includes_CXX.rsp
 
-CXX_FLAGS = -g -std=gnu++11
+CXX_FLAGS = -g -std=gnu++17
 

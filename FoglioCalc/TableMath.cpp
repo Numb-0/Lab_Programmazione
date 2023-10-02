@@ -1,5 +1,4 @@
 #include "TableMath.h"
-#include <iostream>
 
 void TableMath::placeValues(float value, int index)
 {
@@ -38,7 +37,6 @@ float TableMath::getMaxValue()
 float TableMath::getMinValue()
 {
     float min = std::numeric_limits<float>::max();
-    
     for (const auto& pair : TableValues)
     {
         if (pair.second < min)
@@ -46,7 +44,6 @@ float TableMath::getMinValue()
             min = pair.second; 
         }
     }
-    
     return min;
 }
 
@@ -70,10 +67,19 @@ void TableMath::setupTableArg(bool setup_done)
     if (setup_done == false)
     {   
         Tab->blockSignals(true);
+
         Tab->setItem(0, 1, Somma);
+        Somma->setFlags(Somma->flags() &  ~Qt::ItemIsEditable);
+
         Tab->setItem(0, 2, Media);
+        Media->setFlags(Media->flags() &  ~Qt::ItemIsEditable);
+        
         Tab->setItem(0, 3, Min);
+        Min->setFlags(Min->flags() &  ~Qt::ItemIsEditable);
+        
         Tab->setItem(0, 4, Max);
+        Max->setFlags(Max->flags() &  ~Qt::ItemIsEditable);
+        
         Tab->blockSignals(false);
     }
 
@@ -82,9 +88,33 @@ void TableMath::setupTableArg(bool setup_done)
 void TableMath::setTableArg()
 {
     Tab->blockSignals(true);
+
     Max->setText(QString::number(getMaxValue()));
     Min->setText(QString::number(getMinValue()));
     Media->setText(QString::number(getMediaValue()));
     Somma->setText(QString::number(getSommaValue()));
+
     Tab->blockSignals(false);
+}
+
+void TableMath::notify()
+{
+    for (auto o : observers)
+    {
+        o->update();
+    }
+}
+
+void TableMath::addObserver(Observer* o)
+{
+    observers.push_back(o);
+}
+
+void TableMath::removeObserver(Observer* o)
+{
+    auto it = std::find(observers.begin(), observers.end(), o);
+    if (it != observers.end())
+    {
+        observers.erase(it);
+    }
 }

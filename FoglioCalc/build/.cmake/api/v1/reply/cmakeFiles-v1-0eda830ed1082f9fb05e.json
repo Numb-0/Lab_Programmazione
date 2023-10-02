@@ -243,6 +243,18 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/msys64/mingw64/share/cmake/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/lib/cmake/Qt5Test/Qt5TestConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/lib/cmake/Qt5Test/Qt5TestConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/lib/cmake/Qt5Test/Qt5TestConfigExtras.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

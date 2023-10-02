@@ -28,6 +28,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake"
   "C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake"
   "C:/msys64/mingw64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake"
+  "C:/msys64/mingw64/lib/cmake/Qt5Test/Qt5TestConfig.cmake"
+  "C:/msys64/mingw64/lib/cmake/Qt5Test/Qt5TestConfigExtras.cmake"
+  "C:/msys64/mingw64/lib/cmake/Qt5Test/Qt5TestConfigVersion.cmake"
   "C:/msys64/mingw64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake"
   "C:/msys64/mingw64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake"
   "C:/msys64/mingw64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake"
@@ -67,11 +70,14 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/FoglioCalc_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/MathTest_autogen.dir/AutogenInfo.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/FoglioCalc.dir/DependInfo.cmake"
+  "CMakeFiles/MathTest.dir/DependInfo.cmake"
   "CMakeFiles/FoglioCalc_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/MathTest_autogen.dir/DependInfo.cmake"
   )

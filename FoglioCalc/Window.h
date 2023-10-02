@@ -13,6 +13,7 @@ public:
     Window(QWidget *parent = 0);
     ~Window();
     virtual void update() override;
+    TableMath* getTable(){return TMath;}
 private slots:
     void doMathOnTable(QTableWidgetItem* item);
 private:

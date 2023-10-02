@@ -1,5 +1,4 @@
 #include "Window.h"
-#include <iostream>
 
 Window::Window(QWidget* parent) : QMainWindow(parent), ui(new ViewWindow())
 {
@@ -10,18 +9,21 @@ Window::Window(QWidget* parent) : QMainWindow(parent), ui(new ViewWindow())
 
 Window::~Window() 
 {
+    delete TMath;
     delete ui;
 }
 
 void Window::update()
 {
-    
+    int t = 10;
 }
 
 void Window::doMathOnTable(QTableWidgetItem* item)
 {
     TMath->placeValues(item->text().toFloat(),item->row());
     TMath->setTableArg();
+
+    // we do this only once
     TMath->setupTableArg(setup_done);
     setup_done = true;
 }
