@@ -45,7 +45,7 @@ public:
         VerticalLayout->addLayout(HorizontalLayout);
 
         retranslateUi(View);
-        QObject::connect(Table, SIGNAL(itemChanged(QTableWidgetItem*)), View, SLOT(doMathOnTable(QTableWidgetItem*)));
+        QObject::connect(Table, SIGNAL(itemChanged(QTableWidgetItem*)), View, SLOT(refreshTable(QTableWidgetItem*)));
 
         QMetaObject::connectSlotsByName(View);
     } 

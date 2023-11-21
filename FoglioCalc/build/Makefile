@@ -167,6 +167,30 @@ MathTest_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MathTest_autogen.dir\build.make CMakeFiles/MathTest_autogen.dir/build
 .PHONY : MathTest_autogen/fast
 
+CountChangesObserver.obj: CountChangesObserver.cpp.obj
+.PHONY : CountChangesObserver.obj
+
+# target to build an object file
+CountChangesObserver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoglioCalc.dir\build.make CMakeFiles/FoglioCalc.dir/CountChangesObserver.cpp.obj
+.PHONY : CountChangesObserver.cpp.obj
+
+CountChangesObserver.i: CountChangesObserver.cpp.i
+.PHONY : CountChangesObserver.i
+
+# target to preprocess a source file
+CountChangesObserver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoglioCalc.dir\build.make CMakeFiles/FoglioCalc.dir/CountChangesObserver.cpp.i
+.PHONY : CountChangesObserver.cpp.i
+
+CountChangesObserver.s: CountChangesObserver.cpp.s
+.PHONY : CountChangesObserver.s
+
+# target to generate assembly for a file
+CountChangesObserver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoglioCalc.dir\build.make CMakeFiles/FoglioCalc.dir/CountChangesObserver.cpp.s
+.PHONY : CountChangesObserver.cpp.s
+
 FoglioCalc_autogen/mocs_compilation.obj: FoglioCalc_autogen/mocs_compilation.cpp.obj
 .PHONY : FoglioCalc_autogen/mocs_compilation.obj
 
@@ -290,6 +314,30 @@ Window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoglioCalc.dir\build.make CMakeFiles/FoglioCalc.dir/Window.cpp.s
 .PHONY : Window.cpp.s
 
+WindowSubject.obj: WindowSubject.cpp.obj
+.PHONY : WindowSubject.obj
+
+# target to build an object file
+WindowSubject.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoglioCalc.dir\build.make CMakeFiles/FoglioCalc.dir/WindowSubject.cpp.obj
+.PHONY : WindowSubject.cpp.obj
+
+WindowSubject.i: WindowSubject.cpp.i
+.PHONY : WindowSubject.i
+
+# target to preprocess a source file
+WindowSubject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoglioCalc.dir\build.make CMakeFiles/FoglioCalc.dir/WindowSubject.cpp.i
+.PHONY : WindowSubject.cpp.i
+
+WindowSubject.s: WindowSubject.cpp.s
+.PHONY : WindowSubject.s
+
+# target to generate assembly for a file
+WindowSubject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoglioCalc.dir\build.make CMakeFiles/FoglioCalc.dir/WindowSubject.cpp.s
+.PHONY : WindowSubject.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -326,6 +374,9 @@ help:
 	@echo ... MathTest_autogen
 	@echo ... FoglioCalc
 	@echo ... MathTest
+	@echo ... CountChangesObserver.obj
+	@echo ... CountChangesObserver.i
+	@echo ... CountChangesObserver.s
 	@echo ... FoglioCalc_autogen/mocs_compilation.obj
 	@echo ... FoglioCalc_autogen/mocs_compilation.i
 	@echo ... FoglioCalc_autogen/mocs_compilation.s
@@ -341,6 +392,9 @@ help:
 	@echo ... Window.obj
 	@echo ... Window.i
 	@echo ... Window.s
+	@echo ... WindowSubject.obj
+	@echo ... WindowSubject.i
+	@echo ... WindowSubject.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -16,7 +16,11 @@ find_package(Qt5Widgets REQUIRED)
 add_executable(FoglioCalc 
     main.cpp
     Observer.h 
+    CountChangesObserver.h
+    CountChangesObserver.cpp
     Subject.h 
+    WindowSubject.h
+    WindowSubject.cpp
     Window.h 
     Window.cpp 
     TableMath.h

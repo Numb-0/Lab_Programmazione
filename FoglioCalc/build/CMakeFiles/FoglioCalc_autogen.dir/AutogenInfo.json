@@ -70,6 +70,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/CountChangesObserver.h",
+			"Mu",
+			"EWIEGA46WW/moc_CountChangesObserver.cpp",
+			null
+		],
+		[
 			"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/Observer.h",
 			"Mu",
 			"EWIEGA46WW/moc_Observer.cpp",
@@ -97,6 +103,12 @@
 			"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/Window.h",
 			"Mu",
 			"EWIEGA46WW/moc_Window.cpp",
+			null
+		],
+		[
+			"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/WindowSubject.h",
+			"Mu",
+			"EWIEGA46WW/moc_WindowSubject.cpp",
 			null
 		]
 	],
@@ -152,12 +164,22 @@
 	"SOURCES" : 
 	[
 		[
+			"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/CountChangesObserver.cpp",
+			"Mu",
+			null
+		],
+		[
 			"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/TableMath.cpp",
 			"Mu",
 			null
 		],
 		[
 			"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/Window.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/WindowSubject.cpp",
 			"Mu",
 			null
 		],

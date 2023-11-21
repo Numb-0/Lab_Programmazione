@@ -13,6 +13,18 @@
 },
 {
   "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalc.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FoglioCalc.dir\\CountChangesObserver.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalc\\CountChangesObserver.cpp",
+  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/CountChangesObserver.cpp",
+  "output": "CMakeFiles/FoglioCalc.dir/CountChangesObserver.cpp.obj"
+},
+{
+  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalc.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FoglioCalc.dir\\WindowSubject.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalc\\WindowSubject.cpp",
+  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/WindowSubject.cpp",
+  "output": "CMakeFiles/FoglioCalc.dir/WindowSubject.cpp.obj"
+},
+{
+  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/build",
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalc.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FoglioCalc.dir\\Window.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalc\\Window.cpp",
   "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/Window.cpp",
   "output": "CMakeFiles/FoglioCalc.dir/Window.cpp.obj"

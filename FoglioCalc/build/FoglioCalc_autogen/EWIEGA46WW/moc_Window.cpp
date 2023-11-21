@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Window_t {
     QByteArrayData data[5];
-    char stringdata0[45];
+    char stringdata0[44];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -33,13 +33,13 @@ struct qt_meta_stringdata_Window_t {
 static const qt_meta_stringdata_Window_t qt_meta_stringdata_Window = {
     {
 QT_MOC_LITERAL(0, 0, 6), // "Window"
-QT_MOC_LITERAL(1, 7, 13), // "doMathOnTable"
-QT_MOC_LITERAL(2, 21, 0), // ""
-QT_MOC_LITERAL(3, 22, 17), // "QTableWidgetItem*"
-QT_MOC_LITERAL(4, 40, 4) // "item"
+QT_MOC_LITERAL(1, 7, 12), // "refreshTable"
+QT_MOC_LITERAL(2, 20, 0), // ""
+QT_MOC_LITERAL(3, 21, 17), // "QTableWidgetItem*"
+QT_MOC_LITERAL(4, 39, 4) // "item"
 
     },
-    "Window\0doMathOnTable\0\0QTableWidgetItem*\0"
+    "Window\0refreshTable\0\0QTableWidgetItem*\0"
     "item"
 };
 #undef QT_MOC_LITERAL
@@ -72,7 +72,7 @@ void Window::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
         auto *_t = static_cast<Window *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->doMathOnTable((*reinterpret_cast< QTableWidgetItem*(*)>(_a[1]))); break;
+        case 0: _t->refreshTable((*reinterpret_cast< QTableWidgetItem*(*)>(_a[1]))); break;
         default: ;
         }
     }
@@ -98,8 +98,6 @@ void *Window::qt_metacast(const char *_clname)
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_Window.stringdata0))
         return static_cast<void*>(this);
-    if (!strcmp(_clname, "Observer"))
-        return static_cast< Observer*>(this);
     return QMainWindow::qt_metacast(_clname);
 }
 

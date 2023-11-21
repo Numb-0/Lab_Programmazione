@@ -342,6 +342,7 @@ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/TestMath.cpp
  mdp:C:/msys64/mingw64/include/c++/13.2.0/bits/hash_bytes.h
  mdp:C:/msys64/mingw64/include/c++/13.2.0/bits/invoke.h
  mdp:C:/msys64/mingw64/include/c++/13.2.0/bits/ios_base.h
+ mdp:C:/msys64/mingw64/include/c++/13.2.0/bits/istream.tcc
  mdp:C:/msys64/mingw64/include/c++/13.2.0/bits/iterator_concepts.h
  mdp:C:/msys64/mingw64/include/c++/13.2.0/bits/list.tcc
  mdp:C:/msys64/mingw64/include/c++/13.2.0/bits/locale_classes.h
@@ -435,6 +436,8 @@ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/TestMath.cpp
  mdp:C:/msys64/mingw64/include/c++/13.2.0/initializer_list
  mdp:C:/msys64/mingw64/include/c++/13.2.0/ios
  mdp:C:/msys64/mingw64/include/c++/13.2.0/iosfwd
+ mdp:C:/msys64/mingw64/include/c++/13.2.0/iostream
+ mdp:C:/msys64/mingw64/include/c++/13.2.0/istream
  mdp:C:/msys64/mingw64/include/c++/13.2.0/iterator
  mdp:C:/msys64/mingw64/include/c++/13.2.0/limits
  mdp:C:/msys64/mingw64/include/c++/13.2.0/list
@@ -520,5 +523,5 @@ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/TestMath.cpp
  mdp:C:/msys64/mingw64/include/wchar.h
  mdp:C:/msys64/mingw64/include/wctype.h
  mdp:C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h
-C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/TableMath.h
 C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/TableMath.cpp
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/TableMath.h

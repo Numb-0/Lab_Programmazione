@@ -3,8 +3,10 @@
 Window::Window(QWidget* parent) : QMainWindow(parent), ui(new ViewWindow())
 {
     ui->setupUi(this);
-    update();
     TMath = new TableMath(ui->Table);
+    
+    // blocking all non used cells
+    TMath->setupTableArg();
 }
 
 Window::~Window() 
@@ -13,17 +15,12 @@ Window::~Window()
     delete ui;
 }
 
-void Window::update()
+void Window::refreshTable(QTableWidgetItem* item)
 {
-    int t = 10;
-}
-
-void Window::doMathOnTable(QTableWidgetItem* item)
-{
-    TMath->placeValues(item->text().toFloat(),item->row());
-    TMath->setTableArg();
-
-    // we do this only once
-    TMath->setupTableArg(setup_done);
-    setup_done = true;
+    bool isNumber;
+    float num = item->text().toFloat(&isNumber);
+    if(isNumber || item->text().isEmpty()){
+        TMath->placeValues(num,item->row());
+        TMath->setTableArg();
+    }
 }

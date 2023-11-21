@@ -1,9 +1,11 @@
 C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/build/FoglioCalc_autogen/EWIEGA46WW/moc_Window.cpp: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/Window.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/build/FoglioCalc_autogen/moc_predefs.h \
+  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/CountChangesObserver.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/Observer.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/Subject.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/TableMath.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/ViewWindow.h \
+  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/WindowSubject.h \
   C:/msys64/mingw64/include/QtCore/QVariant \
   C:/msys64/mingw64/include/QtCore/qabstractitemmodel.h \
   C:/msys64/mingw64/include/QtCore/qalgorithms.h \

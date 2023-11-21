@@ -637,5 +637,19 @@ CMakeFiles/MathTest.dir/TestMath.cpp.obj: \
  C:/msys64/mingw64/include/QtWidgets/qrubberband.h \
  C:/msys64/mingw64/include/c++/13.2.0/map \
  C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\Subject.h \
- C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\Observer.h \
+ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/Observer.h \
+ C:/msys64/mingw64/include/c++/13.2.0/iostream \
+ C:/msys64/mingw64/include/c++/13.2.0/ostream \
+ C:/msys64/mingw64/include/c++/13.2.0/ios \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/basic_ios.h \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/locale_facets.h \
+ C:/msys64/mingw64/include/c++/13.2.0/cwctype \
+ C:/msys64/mingw64/include/wctype.h \
+ C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/locale_facets.tcc \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/basic_ios.tcc \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/ostream.tcc \
+ C:/msys64/mingw64/include/c++/13.2.0/istream \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/istream.tcc \
  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/build/MathTest_autogen/include/TestMath.moc

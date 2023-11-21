@@ -98,11 +98,41 @@ CMakeFiles/FoglioCalc.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FoglioCalc.dir/main.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\main.cpp -o CMakeFiles\FoglioCalc.dir\main.cpp.s
 
+CMakeFiles/FoglioCalc.dir/CountChangesObserver.cpp.obj: CMakeFiles/FoglioCalc.dir/flags.make
+CMakeFiles/FoglioCalc.dir/CountChangesObserver.cpp.obj: CMakeFiles/FoglioCalc.dir/includes_CXX.rsp
+CMakeFiles/FoglioCalc.dir/CountChangesObserver.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/CountChangesObserver.cpp
+CMakeFiles/FoglioCalc.dir/CountChangesObserver.cpp.obj: CMakeFiles/FoglioCalc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FoglioCalc.dir/CountChangesObserver.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FoglioCalc.dir/CountChangesObserver.cpp.obj -MF CMakeFiles\FoglioCalc.dir\CountChangesObserver.cpp.obj.d -o CMakeFiles\FoglioCalc.dir\CountChangesObserver.cpp.obj -c C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\CountChangesObserver.cpp
+
+CMakeFiles/FoglioCalc.dir/CountChangesObserver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FoglioCalc.dir/CountChangesObserver.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\CountChangesObserver.cpp > CMakeFiles\FoglioCalc.dir\CountChangesObserver.cpp.i
+
+CMakeFiles/FoglioCalc.dir/CountChangesObserver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FoglioCalc.dir/CountChangesObserver.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\CountChangesObserver.cpp -o CMakeFiles\FoglioCalc.dir\CountChangesObserver.cpp.s
+
+CMakeFiles/FoglioCalc.dir/WindowSubject.cpp.obj: CMakeFiles/FoglioCalc.dir/flags.make
+CMakeFiles/FoglioCalc.dir/WindowSubject.cpp.obj: CMakeFiles/FoglioCalc.dir/includes_CXX.rsp
+CMakeFiles/FoglioCalc.dir/WindowSubject.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/WindowSubject.cpp
+CMakeFiles/FoglioCalc.dir/WindowSubject.cpp.obj: CMakeFiles/FoglioCalc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FoglioCalc.dir/WindowSubject.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FoglioCalc.dir/WindowSubject.cpp.obj -MF CMakeFiles\FoglioCalc.dir\WindowSubject.cpp.obj.d -o CMakeFiles\FoglioCalc.dir\WindowSubject.cpp.obj -c C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\WindowSubject.cpp
+
+CMakeFiles/FoglioCalc.dir/WindowSubject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FoglioCalc.dir/WindowSubject.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\WindowSubject.cpp > CMakeFiles\FoglioCalc.dir\WindowSubject.cpp.i
+
+CMakeFiles/FoglioCalc.dir/WindowSubject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FoglioCalc.dir/WindowSubject.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\WindowSubject.cpp -o CMakeFiles\FoglioCalc.dir\WindowSubject.cpp.s
+
 CMakeFiles/FoglioCalc.dir/Window.cpp.obj: CMakeFiles/FoglioCalc.dir/flags.make
 CMakeFiles/FoglioCalc.dir/Window.cpp.obj: CMakeFiles/FoglioCalc.dir/includes_CXX.rsp
 CMakeFiles/FoglioCalc.dir/Window.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/Window.cpp
 CMakeFiles/FoglioCalc.dir/Window.cpp.obj: CMakeFiles/FoglioCalc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FoglioCalc.dir/Window.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FoglioCalc.dir/Window.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FoglioCalc.dir/Window.cpp.obj -MF CMakeFiles\FoglioCalc.dir\Window.cpp.obj.d -o CMakeFiles\FoglioCalc.dir\Window.cpp.obj -c C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\Window.cpp
 
 CMakeFiles/FoglioCalc.dir/Window.cpp.i: cmake_force
@@ -117,7 +147,7 @@ CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj: CMakeFiles/FoglioCalc.dir/flags.mak
 CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj: CMakeFiles/FoglioCalc.dir/includes_CXX.rsp
 CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalc/TableMath.cpp
 CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj: CMakeFiles/FoglioCalc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj -MF CMakeFiles\FoglioCalc.dir\TableMath.cpp.obj.d -o CMakeFiles\FoglioCalc.dir\TableMath.cpp.obj -c C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\TableMath.cpp
 
 CMakeFiles/FoglioCalc.dir/TableMath.cpp.i: cmake_force
@@ -132,6 +162,8 @@ CMakeFiles/FoglioCalc.dir/TableMath.cpp.s: cmake_force
 FoglioCalc_OBJECTS = \
 "CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/FoglioCalc.dir/main.cpp.obj" \
+"CMakeFiles/FoglioCalc.dir/CountChangesObserver.cpp.obj" \
+"CMakeFiles/FoglioCalc.dir/WindowSubject.cpp.obj" \
 "CMakeFiles/FoglioCalc.dir/Window.cpp.obj" \
 "CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj"
 
@@ -140,6 +172,8 @@ FoglioCalc_EXTERNAL_OBJECTS =
 
 FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj
 FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/main.cpp.obj
+FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/CountChangesObserver.cpp.obj
+FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/WindowSubject.cpp.obj
 FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/Window.cpp.obj
 FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj
 FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/build.make
@@ -149,7 +183,7 @@ FoglioCalc.exe: C:/msys64/mingw64/lib/libQt5Core.dll.a
 FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/linkLibs.rsp
 FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/objects1.rsp
 FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable FoglioCalc.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalc\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable FoglioCalc.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FoglioCalc.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

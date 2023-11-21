@@ -8,7 +8,7 @@
 #include <numeric>
 #include "Subject.h"
 
-class TableMath : public Subject
+class TableMath
 {
 public:
     TableMath(QTableWidget* T = nullptr) : Tab(T),
@@ -16,6 +16,7 @@ public:
         Min(new QTableWidgetItem(Qt::DisplayRole)),
         Media(new QTableWidgetItem(Qt::DisplayRole)),
         Somma(new QTableWidgetItem(Qt::DisplayRole)){}
+        
     ~TableMath()
     {
         delete Max;
@@ -25,7 +26,7 @@ public:
     }
 
     void placeValues(float value, int index);
-    void setupTableArg(bool setup_done);
+    void setupTableArg();
     void setTableArg();
     std::map<int,float>& getTableMap(){return TableValues;}
     void setTableMap(const std::map<int,float>& map){TableValues = map;}
@@ -36,12 +37,7 @@ public:
     float getMediaValue();
     float getSommaValue();
 
-    // Subject functions
-    void notify() override;
-    void addObserver(Observer* o) override;
-    void removeObserver(Observer* o) override;
 private:
-    std::vector<Observer*> observers;
 
     QTableWidget* Tab;
     std::map<int,float> TableValues;

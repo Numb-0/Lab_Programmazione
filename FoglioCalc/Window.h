@@ -2,20 +2,21 @@
 #define WINDOW_H
 
 #include <QMainWindow>
-#include <iostream>
 #include "ViewWindow.h"
-#include "Observer.h"
 #include "TableMath.h"
+#include <CountChangesObserver.h>
 
-class Window : public QMainWindow , public Observer {
+class Window : public QMainWindow
+{
     Q_OBJECT
 public:
     Window(QWidget *parent = 0);
     ~Window();
-    virtual void update() override;
     TableMath* getTable(){return TMath;}
+
 private slots:
-    void doMathOnTable(QTableWidgetItem* item);
+    void refreshTable(QTableWidgetItem* item);
+
 private:
     ViewWindow* ui;
     TableMath* TMath;

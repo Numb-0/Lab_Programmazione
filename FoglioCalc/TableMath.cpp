@@ -1,8 +1,9 @@
 #include "TableMath.h"
+#include <iostream>
 
 void TableMath::placeValues(float value, int index)
 {
-    if (TableValues.find(index) == TableValues.end())
+    if (TableValues.find(index) == TableValues.end() && !Tab->item(index,0)->text().isEmpty())
     {
         // case data index still not used
         TableValues.insert({index,value});
@@ -10,6 +11,7 @@ void TableMath::placeValues(float value, int index)
     else if (Tab->item(index,0)->text().isEmpty())
     {
         // case data erased from table
+        std::cout << "empty";
         TableValues.erase(index);
     } 
     else
@@ -30,7 +32,9 @@ float TableMath::getMaxValue()
             max = pair.second; 
         }
     }
-    
+
+    if (max == std::numeric_limits<float>::lowest())
+        return std::numeric_limits<double>::quiet_NaN();
     return max;
 }
 
@@ -43,7 +47,13 @@ float TableMath::getMinValue()
         {
             min = pair.second; 
         }
+        else if (min == std::numeric_limits<float>::max())
+        {
+            min = std::numeric_limits<float>::quiet_NaN();
+        }
     }
+    if (min == std::numeric_limits<float>::max())
+        return std::numeric_limits<double>::quiet_NaN();
     return min;
 }
 
@@ -62,27 +72,32 @@ float TableMath::getSommaValue()
     return Sum;
 }
 
-void TableMath::setupTableArg(bool setup_done)
+void TableMath::setupTableArg()
 {
-    if (setup_done == false)
-    {   
-        Tab->blockSignals(true);
+    Tab->blockSignals(true);
 
-        Tab->setItem(0, 1, Somma);
-        Somma->setFlags(Somma->flags() &  ~Qt::ItemIsEditable);
+    Tab->setItem(0, 1, Somma);
+    Somma->setFlags(Somma->flags() &  ~Qt::ItemIsEditable);
 
-        Tab->setItem(0, 2, Media);
-        Media->setFlags(Media->flags() &  ~Qt::ItemIsEditable);
-        
-        Tab->setItem(0, 3, Min);
-        Min->setFlags(Min->flags() &  ~Qt::ItemIsEditable);
-        
-        Tab->setItem(0, 4, Max);
-        Max->setFlags(Max->flags() &  ~Qt::ItemIsEditable);
-        
-        Tab->blockSignals(false);
+    Tab->setItem(0, 2, Media);
+    Media->setFlags(Media->flags() &  ~Qt::ItemIsEditable);
+    
+    Tab->setItem(0, 3, Min);
+    Min->setFlags(Min->flags() &  ~Qt::ItemIsEditable);
+    
+    Tab->setItem(0, 4, Max);
+    Max->setFlags(Max->flags() &  ~Qt::ItemIsEditable);
+
+    // now setting other cells as not editable
+    for (int i = 1; i < Tab->rowCount(); i++){
+        for (int j = 1; j < Tab->columnCount(); j++){
+            QTableWidgetItem* item = new QTableWidgetItem(Qt::DisplayRole);
+            Tab->setItem(i, j, item);
+            Tab->item(i,j)->setFlags(item->flags() &  ~Qt::ItemIsEditable);
+        }
     }
 
+    Tab->blockSignals(false);
 }
 
 void TableMath::setTableArg()
@@ -97,24 +112,3 @@ void TableMath::setTableArg()
     Tab->blockSignals(false);
 }
 
-void TableMath::notify()
-{
-    for (auto o : observers)
-    {
-        o->update();
-    }
-}
-
-void TableMath::addObserver(Observer* o)
-{
-    observers.push_back(o);
-}
-
-void TableMath::removeObserver(Observer* o)
-{
-    auto it = std::find(observers.begin(), observers.end(), o);
-    if (it != observers.end())
-    {
-        observers.erase(it);
-    }
-}
