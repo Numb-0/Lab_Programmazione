@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\Gtest.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\Gtest.dir/objects.a @CMakeFiles\Gtest.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Gtest.dir/objects.a -Wl,--no-whole-archive -o Gtest.exe -Wl,--out-implib,libGtest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Gtest.dir\linkLibs.rsp
