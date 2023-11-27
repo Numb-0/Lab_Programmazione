@@ -17,17 +17,15 @@ Window::~Window()
 
 void Window::refreshTable(QTableWidgetItem* item)
 {
-
     bool isNumber;
     float num = item->text().toFloat(&isNumber);
-    bool is_same_item = (previous_item == item);
-    if(!is_same_item && (previous_item != nullptr))
+    if (isNumber)
     {
         counter ++;
         notify(counter);
     }
-    previous_item = item;
-    if((isNumber || item->text().isEmpty()) && !is_same_item){
+    // update table only if number or empty
+    if((isNumber || item->text().isEmpty())){
         TMath->placeValues(num,item->row());
         TMath->setTableArg();
     }

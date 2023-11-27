@@ -35,7 +35,7 @@ public:
 
         Table = new QTableWidget(8, 6, ViewWidget);
         Table->setObjectName(QStringLiteral("Table"));
-        QStringList tableLabels = {"Numeri", "Somma", "Media", "Min", "Max", "CountChanges"};
+        QStringList tableLabels = {"Numeri", "Somma", "Media", "Min", "Max", "AddedNumbersCount"};
         Table->setHorizontalHeaderLabels(tableLabels);
         Table->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
         Table->verticalHeader()->setSectionResizeMode(QHeaderView::Stretch);
