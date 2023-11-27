@@ -15,6 +15,7 @@ public:
     Window(QWidget *parent = 0);
     ~Window();
     TableMath* getTable(){return TMath;}
+    
     // Subject functions
     void notify(float data) override;
     void addObserver(Observer* o) override;
@@ -29,6 +30,7 @@ private:
     QTableWidgetItem* previous_item = nullptr;
     bool setup_done = false;
 
+    // Observer support
     int counter = 0;
     std::vector<Observer*> observers;
 };

@@ -23,6 +23,7 @@ public:
         delete Min;
         delete Media;
         delete Somma;
+        delete Counter;
     }
 
     void placeValues(float value, int index);

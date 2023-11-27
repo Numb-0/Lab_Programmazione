@@ -7,7 +7,7 @@
 
 class CountObserver : public Observer
 {
-public:
+public:  
     CountObserver(TableMath* currentTable) : currentTable(currentTable){};
     virtual ~CountObserver() {}
     void update(float data) override;
