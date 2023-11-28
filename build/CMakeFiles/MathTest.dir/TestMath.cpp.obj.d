@@ -1,5 +1,5 @@
 CMakeFiles/MathTest.dir/TestMath.cpp.obj: \
- C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\TestMath.cpp \
+ C:\Users\cosim\Desktop\Lab_Programmazione\TestMath.cpp \
  C:/msys64/mingw64/include/QtTest/QtTest \
  C:/msys64/mingw64/include/QtTest/QtTestDepends \
  C:/msys64/mingw64/include/QtCore/QtCore \
@@ -617,7 +617,7 @@ CMakeFiles/MathTest.dir/TestMath.cpp.obj: \
  C:/msys64/mingw64/include/QtTest/qtestsystem.h \
  C:/msys64/mingw64/include/QtTest/qttestversion.h \
  C:/msys64/mingw64/include/QtCore/QDebug \
- C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\TableMath.h \
+ C:\Users\cosim\Desktop\Lab_Programmazione\TableMath.h \
  C:/msys64/mingw64/include/QtWidgets/QTableWidget \
  C:/msys64/mingw64/include/QtWidgets/qtablewidget.h \
  C:/msys64/mingw64/include/QtWidgets/qtableview.h \
@@ -636,4 +636,4 @@ CMakeFiles/MathTest.dir/TestMath.cpp.obj: \
  C:/msys64/mingw64/include/QtWidgets/qtabwidget.h \
  C:/msys64/mingw64/include/QtWidgets/qrubberband.h \
  C:/msys64/mingw64/include/c++/13.2.0/map \
- C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/MathTest_autogen/include/TestMath.moc
+ C:/Users/cosim/Desktop/Lab_Programmazione/build/MathTest_autogen/include/TestMath.moc

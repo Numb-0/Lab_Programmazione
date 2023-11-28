@@ -31,6 +31,7 @@ public:
     void setTableArg();
     std::map<int,float>& getTableMap(){return TableValues;}
     void setTableMap(const std::map<int,float>& map){TableValues = map;}
+    int getTableSize(){return TableValues.size();}
 
     // Math functions
     float getMaxValue();

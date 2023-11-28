@@ -1,6 +1,6 @@
 CMakeFiles/FoglioCalc.dir/Window.cpp.obj: \
- C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\Window.cpp \
- C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\Window.h \
+ C:\Users\cosim\Desktop\Lab_Programmazione\Window.cpp \
+ C:\Users\cosim\Desktop\Lab_Programmazione\Window.h \
  C:/msys64/mingw64/include/QtWidgets/QMainWindow \
  C:/msys64/mingw64/include/QtWidgets/qmainwindow.h \
  C:/msys64/mingw64/include/QtWidgets/qtwidgetsglobal.h \
@@ -279,8 +279,8 @@ CMakeFiles/FoglioCalc.dir/Window.cpp.obj: \
  C:/msys64/mingw64/include/QtGui/qkeysequence.h \
  C:/msys64/mingw64/include/QtWidgets/qtabwidget.h \
  C:/msys64/mingw64/include/QtGui/qicon.h \
- C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/Subject.h \
- C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/Observer.h \
+ C:/Users/cosim/Desktop/Lab_Programmazione/Subject.h \
+ C:/Users/cosim/Desktop/Lab_Programmazione/Observer.h \
  C:/msys64/mingw64/include/c++/13.2.0/iostream \
  C:/msys64/mingw64/include/c++/13.2.0/ostream \
  C:/msys64/mingw64/include/c++/13.2.0/ios \
@@ -295,7 +295,7 @@ CMakeFiles/FoglioCalc.dir/Window.cpp.obj: \
  C:/msys64/mingw64/include/c++/13.2.0/bits/ostream.tcc \
  C:/msys64/mingw64/include/c++/13.2.0/istream \
  C:/msys64/mingw64/include/c++/13.2.0/bits/istream.tcc \
- C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\ViewWindow.h \
+ C:\Users\cosim\Desktop\Lab_Programmazione\ViewWindow.h \
  C:/msys64/mingw64/include/QtCore/QVariant \
  C:/msys64/mingw64/include/QtCore/qvariant.h \
  C:/msys64/mingw64/include/QtCore/qmap.h \
@@ -361,5 +361,5 @@ CMakeFiles/FoglioCalc.dir/Window.cpp.obj: \
  C:/msys64/mingw64/include/QtWidgets/qboxlayout.h \
  C:/msys64/mingw64/include/QtWidgets/qgridlayout.h \
  C:/msys64/mingw64/include/QtWidgets/QHBoxLayout \
- C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\TableMath.h \
+ C:\Users\cosim\Desktop\Lab_Programmazione\TableMath.h \
  C:/msys64/mingw64/include/c++/13.2.0/map

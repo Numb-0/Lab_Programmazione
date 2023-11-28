@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/FoglioCalc_autogen/mocs_compilation.cpp" "CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj.d"
-  "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/TableMath.cpp" "CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj" "gcc" "CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj.d"
-  "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/Window.cpp" "CMakeFiles/FoglioCalc.dir/Window.cpp.obj" "gcc" "CMakeFiles/FoglioCalc.dir/Window.cpp.obj.d"
-  "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/main.cpp" "CMakeFiles/FoglioCalc.dir/main.cpp.obj" "gcc" "CMakeFiles/FoglioCalc.dir/main.cpp.obj.d"
+  "C:/Users/cosim/Desktop/Lab_Programmazione/build/FoglioCalc_autogen/mocs_compilation.cpp" "CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj.d"
+  "C:/Users/cosim/Desktop/Lab_Programmazione/TableMath.cpp" "CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj" "gcc" "CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj.d"
+  "C:/Users/cosim/Desktop/Lab_Programmazione/Window.cpp" "CMakeFiles/FoglioCalc.dir/Window.cpp.obj" "gcc" "CMakeFiles/FoglioCalc.dir/Window.cpp.obj.d"
+  "C:/Users/cosim/Desktop/Lab_Programmazione/main.cpp" "CMakeFiles/FoglioCalc.dir/main.cpp.obj" "gcc" "CMakeFiles/FoglioCalc.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,6 +1,6 @@
 CMakeFiles/MathTest.dir/TableMath.cpp.obj: \
- C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\TableMath.cpp \
- C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\TableMath.h \
+ C:\Users\cosim\Desktop\Lab_Programmazione\TableMath.cpp \
+ C:\Users\cosim\Desktop\Lab_Programmazione\TableMath.h \
  C:/msys64/mingw64/include/QtWidgets/QTableWidget \
  C:/msys64/mingw64/include/QtWidgets/qtablewidget.h \
  C:/msys64/mingw64/include/QtWidgets/qtwidgetsglobal.h \

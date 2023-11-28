@@ -110,7 +110,7 @@
 				},
 				{
 					"backtrace" : 2,
-					"define" : "QT_TESTCASE_BUILDDIR=\"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build\""
+					"define" : "QT_TESTCASE_BUILDDIR=\"C:/Users/cosim/Desktop/Lab_Programmazione/build\""
 				},
 				{
 					"backtrace" : 2,
@@ -124,14 +124,14 @@
 			"includes" : 
 			[
 				{
-					"path" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build"
+					"path" : "C:/Users/cosim/Desktop/Lab_Programmazione/build"
 				},
 				{
-					"path" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2"
+					"path" : "C:/Users/cosim/Desktop/Lab_Programmazione"
 				},
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/MathTest_autogen/include"
+					"path" : "C:/Users/cosim/Desktop/Lab_Programmazione/build/MathTest_autogen/include"
 				},
 				{
 					"backtrace" : 2,

@@ -1,9 +1,9 @@
-C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/FoglioCalc_autogen/EWIEGA46WW/moc_Window.cpp: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/Window.h \
-  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/FoglioCalc_autogen/moc_predefs.h \
-  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/Observer.h \
-  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/Subject.h \
-  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/TableMath.h \
-  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/ViewWindow.h \
+C:/Users/cosim/Desktop/Lab_Programmazione/build/FoglioCalc_autogen/EWIEGA46WW/moc_Window.cpp: C:/Users/cosim/Desktop/Lab_Programmazione/Window.h \
+  C:/Users/cosim/Desktop/Lab_Programmazione/build/FoglioCalc_autogen/moc_predefs.h \
+  C:/Users/cosim/Desktop/Lab_Programmazione/Observer.h \
+  C:/Users/cosim/Desktop/Lab_Programmazione/Subject.h \
+  C:/Users/cosim/Desktop/Lab_Programmazione/TableMath.h \
+  C:/Users/cosim/Desktop/Lab_Programmazione/ViewWindow.h \
   C:/msys64/mingw64/include/QtCore/QVariant \
   C:/msys64/mingw64/include/QtCore/qabstractitemmodel.h \
   C:/msys64/mingw64/include/QtCore/qalgorithms.h \

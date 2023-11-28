@@ -3,7 +3,7 @@
 
 CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.obj: MathTest_autogen/mocs_compilation.cpp
 
-CMakeFiles/MathTest.dir/TableMath.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/TableMath.cpp \
+CMakeFiles/MathTest.dir/TableMath.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/TableMath.cpp \
   C:/msys64/mingw64/include/QtCore/qabstractitemmodel.h \
   C:/msys64/mingw64/include/QtCore/qalgorithms.h \
   C:/msys64/mingw64/include/QtCore/qarraydata.h \
@@ -321,9 +321,9 @@ CMakeFiles/MathTest.dir/TableMath.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmaz
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
-  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/TableMath.h
+  C:/Users/cosim/Desktop/Lab_Programmazione/TableMath.h
 
-CMakeFiles/MathTest.dir/TestMath.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/TestMath.cpp \
+CMakeFiles/MathTest.dir/TestMath.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/TestMath.cpp \
   MathTest_autogen/include/TestMath.moc \
   C:/msys64/mingw64/include/QtCore/QAbstractItemModel \
   C:/msys64/mingw64/include/QtCore/QDeadlineTimer \
@@ -844,7 +844,7 @@ CMakeFiles/MathTest.dir/TestMath.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazi
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/xmmintrin.h \
-  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/TableMath.h
+  C:/Users/cosim/Desktop/Lab_Programmazione/TableMath.h
 
 
 C:/msys64/mingw64/include/math.h:
@@ -870,8 +870,6 @@ C:/msys64/mingw64/include/c++/13.2.0/cmath:
 C:/msys64/mingw64/include/c++/13.2.0/tr1/beta_function.tcc:
 
 C:/msys64/mingw64/include/c++/13.2.0/bits/specfun.h:
-
-C:/msys64/mingw64/include/c++/13.2.0/bits/random.tcc:
 
 C:/msys64/mingw64/include/c++/13.2.0/bits/atomic_futex.h:
 
@@ -1075,7 +1073,9 @@ C:/msys64/mingw64/include/QtCore/QDeadlineTimer:
 
 C:/msys64/mingw64/include/QtCore/QAbstractItemModel:
 
-C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/TableMath.h:
+C:/msys64/mingw64/include/c++/13.2.0/bits/random.tcc:
+
+C:/Users/cosim/Desktop/Lab_Programmazione/TestMath.cpp:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h:
 
@@ -1297,6 +1297,8 @@ C:/msys64/mingw64/include/c++/13.2.0/bits/predefined_ops.h:
 
 C:/msys64/mingw64/include/QtWidgets/qtwidgetsglobal.h:
 
+C:/Users/cosim/Desktop/Lab_Programmazione/TableMath.h:
+
 C:/msys64/mingw64/include/QtGui/qrgba64.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/cpu_defines.h:
@@ -1441,6 +1443,18 @@ C:/msys64/mingw64/include/QtCore/qtcoreversion.h:
 
 C:/msys64/mingw64/include/QtCore/qset.h:
 
+C:/msys64/mingw64/include/QtWidgets/qframe.h:
+
+C:/msys64/mingw64/include/QtCore/qqueue.h:
+
+C:/msys64/mingw64/include/QtGui/qrgb.h:
+
+C:/msys64/mingw64/include/QtCore/qobject.h:
+
+C:/msys64/mingw64/include/QtCore/qobjectdefs.h:
+
+C:/msys64/mingw64/include/QtCore/qpoint.h:
+
 C:/msys64/mingw64/include/QtCore/qcborarray.h:
 
 C:/msys64/mingw64/include/QtCore/qcontainerfwd.h:
@@ -1460,14 +1474,6 @@ C:/msys64/mingw64/include/c++/13.2.0/bits/memoryfwd.h:
 C:/msys64/mingw64/include/QtCore/qabstractitemmodel.h:
 
 C:/msys64/mingw64/include/_mingw_secapi.h:
-
-C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/TestMath.cpp:
-
-C:/msys64/mingw64/include/QtGui/qvalidator.h:
-
-C:/msys64/mingw64/include/QtGui/qtransform.h:
-
-C:/msys64/mingw64/include/QtCore/qscopedpointer.h:
 
 C:/msys64/mingw64/include/QtCore/qabstracteventdispatcher.h:
 
@@ -1495,14 +1501,6 @@ C:/msys64/mingw64/include/QtCore/qpair.h:
 
 C:/msys64/mingw64/include/QtCore/qregexp.h:
 
-C:/msys64/mingw64/include/QtCore/qobject.h:
-
-C:/msys64/mingw64/include/QtCore/qobjectdefs.h:
-
-C:/msys64/mingw64/include/QtCore/qqueue.h:
-
-C:/msys64/mingw64/include/QtGui/qrgb.h:
-
 C:/msys64/mingw64/include/QtCore/qconfig.h:
 
 C:/msys64/mingw64/include/QtCore/qbasicatomic.h:
@@ -1515,15 +1513,23 @@ C:/msys64/mingw64/include/QtWidgets/qtablewidget.h:
 
 C:/msys64/mingw64/include/QtGui/qimage.h:
 
-C:/msys64/mingw64/include/QtWidgets/qframe.h:
-
-C:/msys64/mingw64/include/QtCore/qpoint.h:
-
 C:/msys64/mingw64/include/QtCore/qglobal.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mwaitintrin.h:
 
 C:/msys64/mingw64/include/QtGui/qpixelformat.h:
+
+C:/msys64/mingw64/include/QtGui/qvalidator.h:
+
+C:/msys64/mingw64/include/QtCore/qscopedpointer.h:
+
+C:/msys64/mingw64/include/QtGui/qtransform.h:
+
+C:/msys64/mingw64/include/QtCore/qreadwritelock.h:
+
+C:/msys64/mingw64/include/QtWidgets/qsizepolicy.h:
+
+C:/msys64/mingw64/include/c++/13.2.0/bits/char_traits.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/bits/random.h:
 
@@ -1540,12 +1546,6 @@ C:/msys64/mingw64/include/QtCore/qfactoryinterface.h:
 C:/msys64/mingw64/include/QtCore/qprocessordetection.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/bits/atomic_lockfree_defines.h:
-
-C:/msys64/mingw64/include/QtCore/qreadwritelock.h:
-
-C:/msys64/mingw64/include/QtWidgets/qsizepolicy.h:
-
-C:/msys64/mingw64/include/c++/13.2.0/bits/char_traits.h:
 
 C:/msys64/mingw64/include/_mingw.h:
 
@@ -1586,8 +1586,6 @@ C:/msys64/mingw64/include/QtCore/qrect.h:
 C:/msys64/mingw64/include/QtCore/qrefcount.h:
 
 C:/msys64/mingw64/include/QtCore/qtranslator.h:
-
-C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/TableMath.cpp:
 
 C:/msys64/mingw64/include/QtCore/qsystemdetection.h:
 
@@ -1670,6 +1668,8 @@ C:/msys64/mingw64/include/QtCore/qabstractproxymodel.h:
 C:/msys64/mingw64/include/c++/13.2.0/bits/charconv.h:
 
 C:/msys64/mingw64/include/QtCore/QtCore:
+
+C:/Users/cosim/Desktop/Lab_Programmazione/TableMath.cpp:
 
 C:/msys64/mingw64/include/c++/13.2.0/bits/exception.h:
 

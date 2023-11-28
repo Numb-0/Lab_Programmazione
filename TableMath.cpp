@@ -11,7 +11,7 @@ void TableMath::placeValues(float value, int index)
     else if (Tab->item(index,0)->text().isEmpty())
     {
         // case data erased from table
-        std::cout << "empty";
+        // std::cout << "empty";
         TableValues.erase(index);
     } 
     else
@@ -92,7 +92,7 @@ void TableMath::setupTableArg()
     Tab->setItem(0, 5, Counter);
     Counter->setFlags(Counter->flags() &  ~Qt::ItemIsEditable);
 
-    // now setting other cells as not editable
+    // setting other cells as not editable
     for (int i = 1; i < Tab->rowCount(); i++){
         for (int j = 1; j < Tab->columnCount(); j++){
             QTableWidgetItem* item = new QTableWidgetItem(Qt::DisplayRole);
@@ -118,6 +118,7 @@ void TableMath::setTableArg()
     else
     {
         // removed all the items in the table
+        // reset Items text
         Max->setText(QString());
         Min->setText(QString());
         Media->setText(QString());

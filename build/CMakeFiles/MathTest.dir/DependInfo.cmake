@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/MathTest_autogen/mocs_compilation.cpp" "CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.obj.d"
-  "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/TableMath.cpp" "CMakeFiles/MathTest.dir/TableMath.cpp.obj" "gcc" "CMakeFiles/MathTest.dir/TableMath.cpp.obj.d"
-  "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/TestMath.cpp" "CMakeFiles/MathTest.dir/TestMath.cpp.obj" "gcc" "CMakeFiles/MathTest.dir/TestMath.cpp.obj.d"
+  "C:/Users/cosim/Desktop/Lab_Programmazione/build/MathTest_autogen/mocs_compilation.cpp" "CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.obj.d"
+  "C:/Users/cosim/Desktop/Lab_Programmazione/TableMath.cpp" "CMakeFiles/MathTest.dir/TableMath.cpp.obj" "gcc" "CMakeFiles/MathTest.dir/TableMath.cpp.obj.d"
+  "C:/Users/cosim/Desktop/Lab_Programmazione/TestMath.cpp" "CMakeFiles/MathTest.dir/TestMath.cpp.obj" "gcc" "CMakeFiles/MathTest.dir/TestMath.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

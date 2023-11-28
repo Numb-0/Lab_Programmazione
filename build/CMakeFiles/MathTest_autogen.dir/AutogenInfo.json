@@ -1,17 +1,17 @@
 {
-	"BUILD_DIR" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/MathTest_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2",
+	"BUILD_DIR" : "C:/Users/cosim/Desktop/Lab_Programmazione/build/MathTest_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/cosim/Desktop/Lab_Programmazione/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/cosim/Desktop/Lab_Programmazione/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/cosim/Desktop/Lab_Programmazione",
 	"CMAKE_EXECUTABLE" : "C:/msys64/mingw64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/CMakeLists.txt",
-		"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/CMakeFiles/3.27.6/CMakeSystem.cmake",
+		"C:/Users/cosim/Desktop/Lab_Programmazione/CMakeLists.txt",
+		"C:/Users/cosim/Desktop/Lab_Programmazione/build/CMakeFiles/3.27.6/CMakeSystem.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake",
-		"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/CMakeFiles/3.27.6/CMakeCCompiler.cmake",
-		"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/CMakeFiles/3.27.6/CMakeCXXCompiler.cmake",
+		"C:/Users/cosim/Desktop/Lab_Programmazione/build/CMakeFiles/3.27.6/CMakeCCompiler.cmake",
+		"C:/Users/cosim/Desktop/Lab_Programmazione/build/CMakeFiles/3.27.6/CMakeCXXCompiler.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -24,7 +24,7 @@
 		"C:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake",
-		"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/CMakeFiles/3.27.6/CMakeRCCompiler.cmake",
+		"C:/Users/cosim/Desktop/Lab_Programmazione/build/CMakeFiles/3.27.6/CMakeRCCompiler.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake",
@@ -64,26 +64,26 @@
 		"C:/msys64/mingw64/lib/cmake/Qt5Test/Qt5TestConfig.cmake",
 		"C:/msys64/mingw64/lib/cmake/Qt5Test/Qt5TestConfigExtras.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2",
+	"CMAKE_SOURCE_DIR" : "C:/Users/cosim/Desktop/Lab_Programmazione",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/TableMath.h",
+			"C:/Users/cosim/Desktop/Lab_Programmazione/TableMath.h",
 			"Mu",
 			"EWIEGA46WW/moc_TableMath.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/MathTest_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/MathTest_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/cosim/Desktop/Lab_Programmazione/build/MathTest_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/cosim/Desktop/Lab_Programmazione/build/MathTest_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
-		"QT_TESTCASE_BUILDDIR=\"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build\"",
+		"QT_TESTCASE_BUILDDIR=\"C:/Users/cosim/Desktop/Lab_Programmazione/build\"",
 		"QT_TESTLIB_LIB",
 		"QT_WIDGETS_LIB"
 	],
@@ -96,8 +96,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build",
-		"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2",
+		"C:/Users/cosim/Desktop/Lab_Programmazione/build",
+		"C:/Users/cosim/Desktop/Lab_Programmazione",
 		"C:/msys64/mingw64/include/QtTest",
 		"C:/msys64/mingw64/include/QtCore",
 		"C:/msys64/mingw64/share/qt5/mkspecs/win32-g++",
@@ -122,32 +122,24 @@
 		"-c",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/MathTest_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "C:/Users/cosim/Desktop/Lab_Programmazione/build/MathTest_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/FoglioCalc_autogen/mocs_compilation.cpp"
+		"C:/Users/cosim/Desktop/Lab_Programmazione/build/FoglioCalc_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/CMakeFiles/MathTest_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/cosim/Desktop/Lab_Programmazione/build/CMakeFiles/MathTest_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/msys64/mingw64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/CMakeFiles/MathTest_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/cosim/Desktop/Lab_Programmazione/build/CMakeFiles/MathTest_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[
-			"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/TableMath.cpp",
-			"Mu",
-			null
-		],
-		[
-			"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/TestMath.cpp",
-			"Mu",
-			null
-		]
+		[ "C:/Users/cosim/Desktop/Lab_Programmazione/TableMath.cpp", "Mu", null ],
+		[ "C:/Users/cosim/Desktop/Lab_Programmazione/TestMath.cpp", "Mu", null ]
 	],
 	"VERBOSITY" : 0
 }

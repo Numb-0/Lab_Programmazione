@@ -1,6 +1,6 @@
-C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/MathTest_autogen/include/TestMath.moc: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/TestMath.cpp \
-  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/MathTest_autogen/moc_predefs.h \
-  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/TableMath.h \
+C:/Users/cosim/Desktop/Lab_Programmazione/build/MathTest_autogen/include/TestMath.moc: C:/Users/cosim/Desktop/Lab_Programmazione/TestMath.cpp \
+  C:/Users/cosim/Desktop/Lab_Programmazione/build/MathTest_autogen/moc_predefs.h \
+  C:/Users/cosim/Desktop/Lab_Programmazione/TableMath.h \
   C:/msys64/mingw64/include/QtCore/QAbstractItemModel \
   C:/msys64/mingw64/include/QtCore/QDeadlineTimer \
   C:/msys64/mingw64/include/QtCore/QDebug \

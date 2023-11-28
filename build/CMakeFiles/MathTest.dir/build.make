@@ -52,10 +52,10 @@ RM = C:\msys64\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2
+CMAKE_SOURCE_DIR = C:\Users\cosim\Desktop\Lab_Programmazione
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\build
+CMAKE_BINARY_DIR = C:\Users\cosim\Desktop\Lab_Programmazione\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MathTest.dir/depend.make
@@ -72,46 +72,46 @@ CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.obj: CMakeFiles/Ma
 CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.obj: CMakeFiles/MathTest.dir/includes_CXX.rsp
 CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.obj: MathTest_autogen/mocs_compilation.cpp
 CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.obj: CMakeFiles/MathTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\MathTest.dir\MathTest_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\MathTest.dir\MathTest_autogen\mocs_compilation.cpp.obj -c C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\build\MathTest_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\MathTest.dir\MathTest_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\MathTest.dir\MathTest_autogen\mocs_compilation.cpp.obj -c C:\Users\cosim\Desktop\Lab_Programmazione\build\MathTest_autogen\mocs_compilation.cpp
 
 CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\build\MathTest_autogen\mocs_compilation.cpp > CMakeFiles\MathTest.dir\MathTest_autogen\mocs_compilation.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cosim\Desktop\Lab_Programmazione\build\MathTest_autogen\mocs_compilation.cpp > CMakeFiles\MathTest.dir\MathTest_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\build\MathTest_autogen\mocs_compilation.cpp -o CMakeFiles\MathTest.dir\MathTest_autogen\mocs_compilation.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cosim\Desktop\Lab_Programmazione\build\MathTest_autogen\mocs_compilation.cpp -o CMakeFiles\MathTest.dir\MathTest_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/MathTest.dir/TestMath.cpp.obj: CMakeFiles/MathTest.dir/flags.make
 CMakeFiles/MathTest.dir/TestMath.cpp.obj: CMakeFiles/MathTest.dir/includes_CXX.rsp
-CMakeFiles/MathTest.dir/TestMath.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/TestMath.cpp
+CMakeFiles/MathTest.dir/TestMath.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/TestMath.cpp
 CMakeFiles/MathTest.dir/TestMath.cpp.obj: CMakeFiles/MathTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MathTest.dir/TestMath.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MathTest.dir/TestMath.cpp.obj -MF CMakeFiles\MathTest.dir\TestMath.cpp.obj.d -o CMakeFiles\MathTest.dir\TestMath.cpp.obj -c C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\TestMath.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MathTest.dir/TestMath.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MathTest.dir/TestMath.cpp.obj -MF CMakeFiles\MathTest.dir\TestMath.cpp.obj.d -o CMakeFiles\MathTest.dir\TestMath.cpp.obj -c C:\Users\cosim\Desktop\Lab_Programmazione\TestMath.cpp
 
 CMakeFiles/MathTest.dir/TestMath.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MathTest.dir/TestMath.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\TestMath.cpp > CMakeFiles\MathTest.dir\TestMath.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cosim\Desktop\Lab_Programmazione\TestMath.cpp > CMakeFiles\MathTest.dir\TestMath.cpp.i
 
 CMakeFiles/MathTest.dir/TestMath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MathTest.dir/TestMath.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\TestMath.cpp -o CMakeFiles\MathTest.dir\TestMath.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cosim\Desktop\Lab_Programmazione\TestMath.cpp -o CMakeFiles\MathTest.dir\TestMath.cpp.s
 
 CMakeFiles/MathTest.dir/TableMath.cpp.obj: CMakeFiles/MathTest.dir/flags.make
 CMakeFiles/MathTest.dir/TableMath.cpp.obj: CMakeFiles/MathTest.dir/includes_CXX.rsp
-CMakeFiles/MathTest.dir/TableMath.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/TableMath.cpp
+CMakeFiles/MathTest.dir/TableMath.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/TableMath.cpp
 CMakeFiles/MathTest.dir/TableMath.cpp.obj: CMakeFiles/MathTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MathTest.dir/TableMath.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MathTest.dir/TableMath.cpp.obj -MF CMakeFiles\MathTest.dir\TableMath.cpp.obj.d -o CMakeFiles\MathTest.dir\TableMath.cpp.obj -c C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\TableMath.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MathTest.dir/TableMath.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MathTest.dir/TableMath.cpp.obj -MF CMakeFiles\MathTest.dir\TableMath.cpp.obj.d -o CMakeFiles\MathTest.dir\TableMath.cpp.obj -c C:\Users\cosim\Desktop\Lab_Programmazione\TableMath.cpp
 
 CMakeFiles/MathTest.dir/TableMath.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MathTest.dir/TableMath.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\TableMath.cpp > CMakeFiles\MathTest.dir\TableMath.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cosim\Desktop\Lab_Programmazione\TableMath.cpp > CMakeFiles\MathTest.dir\TableMath.cpp.i
 
 CMakeFiles/MathTest.dir/TableMath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MathTest.dir/TableMath.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\TableMath.cpp -o CMakeFiles\MathTest.dir\TableMath.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cosim\Desktop\Lab_Programmazione\TableMath.cpp -o CMakeFiles\MathTest.dir\TableMath.cpp.s
 
 # Object files for target MathTest
 MathTest_OBJECTS = \
@@ -133,7 +133,7 @@ MathTest.exe: C:/msys64/mingw64/lib/libQt5Core.dll.a
 MathTest.exe: CMakeFiles/MathTest.dir/linkLibs.rsp
 MathTest.exe: CMakeFiles/MathTest.dir/objects1.rsp
 MathTest.exe: CMakeFiles/MathTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MathTest.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MathTest.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MathTest.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -145,6 +145,6 @@ CMakeFiles/MathTest.dir/clean:
 .PHONY : CMakeFiles/MathTest.dir/clean
 
 CMakeFiles/MathTest.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2 C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2 C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\build C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\build C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloV2\build\CMakeFiles\MathTest.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\cosim\Desktop\Lab_Programmazione C:\Users\cosim\Desktop\Lab_Programmazione C:\Users\cosim\Desktop\Lab_Programmazione\build C:\Users\cosim\Desktop\Lab_Programmazione\build C:\Users\cosim\Desktop\Lab_Programmazione\build\CMakeFiles\MathTest.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/MathTest.dir/depend
 

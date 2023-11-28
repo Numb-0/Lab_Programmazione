@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build"
+			"value" : "c:/Users/cosim/Desktop/Lab_Programmazione/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/cosim/Desktop/Lab_Programmazione/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2"
+			"value" : "C:/Users/cosim/Desktop/Lab_Programmazione"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1283,7 +1283,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build"
+			"value" : "C:/Users/cosim/Desktop/Lab_Programmazione/build"
 		},
 		{
 			"name" : "FoglioCalc_IS_TOP_LEVEL",
@@ -1307,7 +1307,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2"
+			"value" : "C:/Users/cosim/Desktop/Lab_Programmazione"
 		},
 		{
 			"name" : "Qt5Core_DIR",

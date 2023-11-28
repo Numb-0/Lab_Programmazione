@@ -92,14 +92,14 @@
 			"includes" : 
 			[
 				{
-					"path" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build"
+					"path" : "C:/Users/cosim/Desktop/Lab_Programmazione/build"
 				},
 				{
-					"path" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2"
+					"path" : "C:/Users/cosim/Desktop/Lab_Programmazione"
 				},
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloV2/build/FoglioCalc_autogen/include"
+					"path" : "C:/Users/cosim/Desktop/Lab_Programmazione/build/FoglioCalc_autogen/include"
 				},
 				{
 					"backtrace" : 2,
