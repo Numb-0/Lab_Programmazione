@@ -1,6 +1,6 @@
 CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj: \
- C:\Users\cosim\Desktop\Lab_Programmazione\build\FoglioCalc_autogen\mocs_compilation.cpp \
- C:\Users\cosim\Desktop\Lab_Programmazione\build\FoglioCalc_autogen\EWIEGA46WW/moc_Window.cpp \
+ C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\build\FoglioCalc_autogen\mocs_compilation.cpp \
+ C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\build\FoglioCalc_autogen\EWIEGA46WW/moc_Window.cpp \
  C:/msys64/mingw64/include/c++/13.2.0/memory \
  C:/msys64/mingw64/include/c++/13.2.0/bits/memoryfwd.h \
  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -102,7 +102,7 @@ CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj: \
  C:/msys64/mingw64/include/c++/13.2.0/backward/auto_ptr.h \
  C:/msys64/mingw64/include/c++/13.2.0/pstl/glue_memory_defs.h \
  C:/msys64/mingw64/include/c++/13.2.0/pstl/execution_defs.h \
- C:/Users/cosim/Desktop/Lab_Programmazione/Window.h \
+ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Window.h \
  C:/msys64/mingw64/include/QtWidgets/QMainWindow \
  C:/msys64/mingw64/include/QtWidgets/qmainwindow.h \
  C:/msys64/mingw64/include/QtWidgets/qtwidgetsglobal.h \
@@ -278,8 +278,8 @@ CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj: \
  C:/msys64/mingw64/include/QtGui/qkeysequence.h \
  C:/msys64/mingw64/include/QtWidgets/qtabwidget.h \
  C:/msys64/mingw64/include/QtGui/qicon.h \
- C:/Users/cosim/Desktop/Lab_Programmazione/Subject.h \
- C:/Users/cosim/Desktop/Lab_Programmazione/Observer.h \
+ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Subject.h \
+ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Observer.h \
  C:/msys64/mingw64/include/c++/13.2.0/iostream \
  C:/msys64/mingw64/include/c++/13.2.0/ostream \
  C:/msys64/mingw64/include/c++/13.2.0/ios \
@@ -294,7 +294,7 @@ CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj: \
  C:/msys64/mingw64/include/c++/13.2.0/bits/ostream.tcc \
  C:/msys64/mingw64/include/c++/13.2.0/istream \
  C:/msys64/mingw64/include/c++/13.2.0/bits/istream.tcc \
- C:/Users/cosim/Desktop/Lab_Programmazione/ViewWindow.h \
+ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/ViewWindow.h \
  C:/msys64/mingw64/include/QtCore/QVariant \
  C:/msys64/mingw64/include/QtCore/qvariant.h \
  C:/msys64/mingw64/include/QtCore/qmap.h \
@@ -360,5 +360,5 @@ CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj: \
  C:/msys64/mingw64/include/QtWidgets/qboxlayout.h \
  C:/msys64/mingw64/include/QtWidgets/qgridlayout.h \
  C:/msys64/mingw64/include/QtWidgets/QHBoxLayout \
- C:/Users/cosim/Desktop/Lab_Programmazione/TableMath.h \
+ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.h \
  C:/msys64/mingw64/include/c++/13.2.0/map

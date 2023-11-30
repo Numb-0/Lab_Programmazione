@@ -7,7 +7,7 @@
 #include <algorithm>
 #include <numeric>
 
-class TableMath
+class TableMath : public Observer
 {
 public:
     TableMath(QTableWidget* T = nullptr) : Tab(T),

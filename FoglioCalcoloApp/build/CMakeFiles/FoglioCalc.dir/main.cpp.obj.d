@@ -1,5 +1,5 @@
 CMakeFiles/FoglioCalc.dir/main.cpp.obj: \
- C:\Users\cosim\Desktop\Lab_Programmazione\main.cpp \
+ C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\main.cpp \
  C:/msys64/mingw64/include/QtWidgets/QApplication \
  C:/msys64/mingw64/include/QtWidgets/qapplication.h \
  C:/msys64/mingw64/include/QtWidgets/qtwidgetsglobal.h \
@@ -250,7 +250,7 @@ CMakeFiles/FoglioCalc.dir/main.cpp.obj: \
  C:/msys64/mingw64/include/QtCore/qhash.h \
  C:/msys64/mingw64/include/c++/13.2.0/variant \
  C:/msys64/mingw64/include/QtCore/qshareddata.h \
- C:\Users\cosim\Desktop\Lab_Programmazione\Window.h \
+ C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\Window.h \
  C:/msys64/mingw64/include/QtWidgets/QMainWindow \
  C:/msys64/mingw64/include/QtWidgets/qmainwindow.h \
  C:/msys64/mingw64/include/QtWidgets/qwidget.h \
@@ -290,8 +290,8 @@ CMakeFiles/FoglioCalc.dir/main.cpp.obj: \
  C:/msys64/mingw64/include/QtGui/qkeysequence.h \
  C:/msys64/mingw64/include/QtWidgets/qtabwidget.h \
  C:/msys64/mingw64/include/QtGui/qicon.h \
- C:/Users/cosim/Desktop/Lab_Programmazione/Subject.h \
- C:/Users/cosim/Desktop/Lab_Programmazione/Observer.h \
+ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Subject.h \
+ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Observer.h \
  C:/msys64/mingw64/include/c++/13.2.0/iostream \
  C:/msys64/mingw64/include/c++/13.2.0/ostream \
  C:/msys64/mingw64/include/c++/13.2.0/ios \
@@ -306,7 +306,7 @@ CMakeFiles/FoglioCalc.dir/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/13.2.0/bits/ostream.tcc \
  C:/msys64/mingw64/include/c++/13.2.0/istream \
  C:/msys64/mingw64/include/c++/13.2.0/bits/istream.tcc \
- C:\Users\cosim\Desktop\Lab_Programmazione\ViewWindow.h \
+ C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\ViewWindow.h \
  C:/msys64/mingw64/include/QtCore/QVariant \
  C:/msys64/mingw64/include/QtCore/qvariant.h \
  C:/msys64/mingw64/include/QtWidgets/QAction \
@@ -362,7 +362,7 @@ CMakeFiles/FoglioCalc.dir/main.cpp.obj: \
  C:/msys64/mingw64/include/QtWidgets/qboxlayout.h \
  C:/msys64/mingw64/include/QtWidgets/qgridlayout.h \
  C:/msys64/mingw64/include/QtWidgets/QHBoxLayout \
- C:\Users\cosim\Desktop\Lab_Programmazione\TableMath.h \
+ C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\TableMath.h \
  C:/msys64/mingw64/include/c++/13.2.0/map \
- C:/Users/cosim/Desktop/Lab_Programmazione/CountObserver.h \
- C:/Users/cosim/Desktop/Lab_Programmazione/TableMath.h
+ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/CountObserver.h \
+ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.h

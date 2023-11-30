@@ -1,6 +1,6 @@
-C:/Users/cosim/Desktop/Lab_Programmazione/build/CMakeFiles/FoglioCalc.dir
-C:/Users/cosim/Desktop/Lab_Programmazione/build/CMakeFiles/MathTest.dir
-C:/Users/cosim/Desktop/Lab_Programmazione/build/CMakeFiles/edit_cache.dir
-C:/Users/cosim/Desktop/Lab_Programmazione/build/CMakeFiles/rebuild_cache.dir
-C:/Users/cosim/Desktop/Lab_Programmazione/build/CMakeFiles/FoglioCalc_autogen.dir
-C:/Users/cosim/Desktop/Lab_Programmazione/build/CMakeFiles/MathTest_autogen.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/CMakeFiles/FoglioCalc.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/CMakeFiles/MathTest.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/CMakeFiles/edit_cache.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/CMakeFiles/rebuild_cache.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/CMakeFiles/FoglioCalc_autogen.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/CMakeFiles/MathTest_autogen.dir

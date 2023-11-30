@@ -52,10 +52,10 @@ RM = C:\msys64\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\cosim\Desktop\Lab_Programmazione
+CMAKE_SOURCE_DIR = C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\cosim\Desktop\Lab_Programmazione\build
+CMAKE_BINARY_DIR = C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\build
 
 # Utility rule file for FoglioCalc_autogen.
 
@@ -66,8 +66,8 @@ include CMakeFiles/FoglioCalc_autogen.dir/compiler_depend.make
 include CMakeFiles/FoglioCalc_autogen.dir/progress.make
 
 CMakeFiles/FoglioCalc_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target FoglioCalc"
-	C:\msys64\mingw64\bin\cmake.exe -E cmake_autogen C:/Users/cosim/Desktop/Lab_Programmazione/build/CMakeFiles/FoglioCalc_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target FoglioCalc"
+	C:\msys64\mingw64\bin\cmake.exe -E cmake_autogen C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/CMakeFiles/FoglioCalc_autogen.dir/AutogenInfo.json Debug
 
 FoglioCalc_autogen: CMakeFiles/FoglioCalc_autogen
 FoglioCalc_autogen: CMakeFiles/FoglioCalc_autogen.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/FoglioCalc_autogen.dir/clean:
 .PHONY : CMakeFiles/FoglioCalc_autogen.dir/clean
 
 CMakeFiles/FoglioCalc_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\cosim\Desktop\Lab_Programmazione C:\Users\cosim\Desktop\Lab_Programmazione C:\Users\cosim\Desktop\Lab_Programmazione\build C:\Users\cosim\Desktop\Lab_Programmazione\build C:\Users\cosim\Desktop\Lab_Programmazione\build\CMakeFiles\FoglioCalc_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\build C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\build C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\build\CMakeFiles\FoglioCalc_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/FoglioCalc_autogen.dir/depend
 

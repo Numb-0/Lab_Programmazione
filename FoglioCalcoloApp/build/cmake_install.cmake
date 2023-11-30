@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/cosim/Desktop/Lab_Programmazione
+# Install script for directory: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/cosim/Desktop/Lab_Programmazione/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
