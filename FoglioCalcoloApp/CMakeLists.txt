@@ -16,14 +16,16 @@ find_package(Qt5Widgets REQUIRED)
 add_executable(FoglioCalc 
     main.cpp
     Observer.h 
-    CountObserver.h
     Subject.h
     Window.h 
     Window.cpp 
+    TableController.h
+    TableController.cpp
     TableMath.h
     TableMath.cpp
     ViewWindow.h
 )
+
 # Use the Widgets module from Qt 5.
 target_link_libraries(FoglioCalc Qt5::Widgets)
 target_include_directories(FoglioCalc PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}")

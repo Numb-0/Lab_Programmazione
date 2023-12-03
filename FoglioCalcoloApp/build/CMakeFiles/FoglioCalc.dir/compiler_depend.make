@@ -4,6 +4,7 @@
 CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj: FoglioCalc_autogen/mocs_compilation.cpp \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Observer.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Subject.h \
+  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableController.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/ViewWindow.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Window.h \
@@ -365,7 +366,9 @@ CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj: FoglioCal
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
   FoglioCalc_autogen/EWIEGA46WW/moc_Window.cpp
 
-CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.cpp \
+CMakeFiles/FoglioCalc.dir/TableController.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableController.cpp \
+  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Observer.h \
+  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.h \
   C:/msys64/mingw64/include/QtCore/qabstractitemmodel.h \
   C:/msys64/mingw64/include/QtCore/qalgorithms.h \
   C:/msys64/mingw64/include/QtCore/qarraydata.h \
@@ -683,11 +686,98 @@ CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj: C:/Users/cosim/Desktop/Lab_Programm
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
-  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.h
+  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableController.h
+
+CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.cpp \
+  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.h \
+  C:/msys64/mingw64/include/_mingw.h \
+  C:/msys64/mingw64/include/_mingw_mac.h \
+  C:/msys64/mingw64/include/_mingw_secapi.h \
+  C:/msys64/mingw64/include/c++/13.2.0/algorithm \
+  C:/msys64/mingw64/include/c++/13.2.0/backward/binders.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bit \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/algorithmfwd.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/alloc_traits.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/allocator.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/concept_check.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/cpp_type_traits.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/erase_if.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/exception.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/exception_defines.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/functexcept.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/invoke.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/memory_resource.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/memoryfwd.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/move.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/new_allocator.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/node_handle.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/predefined_ops.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/ptr_traits.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/range_access.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/requires_hosted.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/std_abs.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_algo.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_algobase.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_construct.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_function.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_heap.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_iterator.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_iterator_base_types.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_map.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_multimap.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_numeric.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_pair.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_tempbuf.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_tree.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/uniform_int_dist.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/uses_allocator.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/uses_allocator_args.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/utility.h \
+  C:/msys64/mingw64/include/c++/13.2.0/cstddef \
+  C:/msys64/mingw64/include/c++/13.2.0/cstdlib \
+  C:/msys64/mingw64/include/c++/13.2.0/debug/assertions.h \
+  C:/msys64/mingw64/include/c++/13.2.0/debug/debug.h \
+  C:/msys64/mingw64/include/c++/13.2.0/ext/aligned_buffer.h \
+  C:/msys64/mingw64/include/c++/13.2.0/ext/alloc_traits.h \
+  C:/msys64/mingw64/include/c++/13.2.0/ext/numeric_traits.h \
+  C:/msys64/mingw64/include/c++/13.2.0/ext/type_traits.h \
+  C:/msys64/mingw64/include/c++/13.2.0/initializer_list \
+  C:/msys64/mingw64/include/c++/13.2.0/limits \
+  C:/msys64/mingw64/include/c++/13.2.0/map \
+  C:/msys64/mingw64/include/c++/13.2.0/new \
+  C:/msys64/mingw64/include/c++/13.2.0/numeric \
+  C:/msys64/mingw64/include/c++/13.2.0/pstl/execution_defs.h \
+  C:/msys64/mingw64/include/c++/13.2.0/pstl/glue_algorithm_defs.h \
+  C:/msys64/mingw64/include/c++/13.2.0/pstl/glue_numeric_defs.h \
+  C:/msys64/mingw64/include/c++/13.2.0/pstl/pstl_config.h \
+  C:/msys64/mingw64/include/c++/13.2.0/stdlib.h \
+  C:/msys64/mingw64/include/c++/13.2.0/tuple \
+  C:/msys64/mingw64/include/c++/13.2.0/type_traits \
+  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/msys64/mingw64/include/corecrt.h \
+  C:/msys64/mingw64/include/corecrt_wstdlib.h \
+  C:/msys64/mingw64/include/crtdefs.h \
+  C:/msys64/mingw64/include/errno.h \
+  C:/msys64/mingw64/include/limits.h \
+  C:/msys64/mingw64/include/malloc.h \
+  C:/msys64/mingw64/include/sdks/_mingw_ddk.h \
+  C:/msys64/mingw64/include/sec_api/stdlib_s.h \
+  C:/msys64/mingw64/include/stddef.h \
+  C:/msys64/mingw64/include/stdlib.h \
+  C:/msys64/mingw64/include/vadefs.h \
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h \
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h
 
 CMakeFiles/FoglioCalc.dir/Window.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Window.cpp \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Observer.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Subject.h \
+  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.h \
   C:/msys64/mingw64/include/QtCore/QVariant \
   C:/msys64/mingw64/include/QtCore/qabstractitemmodel.h \
   C:/msys64/mingw64/include/QtCore/qalgorithms.h \
@@ -1044,12 +1134,11 @@ CMakeFiles/FoglioCalc.dir/Window.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazi
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
-  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.h \
+  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableController.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/ViewWindow.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Window.h
 
 CMakeFiles/FoglioCalc.dir/main.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/main.cpp \
-  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/CountObserver.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Observer.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Subject.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.h \
@@ -1409,18 +1498,18 @@ CMakeFiles/FoglioCalc.dir/main.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazion
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
-  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.h \
+  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableController.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/ViewWindow.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Window.h
 
-
-C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/CountObserver.h:
 
 C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/main.cpp:
 
 C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Window.cpp:
 
 C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.cpp:
+
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableController.cpp:
 
 FoglioCalc_autogen/EWIEGA46WW/moc_Window.cpp:
 
@@ -1566,6 +1655,8 @@ C:/msys64/mingw64/include/c++/13.2.0/cstdio:
 
 C:/msys64/mingw64/include/c++/13.2.0/clocale:
 
+C:/msys64/mingw64/include/c++/13.2.0/chrono:
+
 C:/msys64/mingw64/include/c++/13.2.0/stdexcept:
 
 C:/msys64/mingw64/include/c++/13.2.0/memory:
@@ -1666,6 +1757,20 @@ C:/msys64/mingw64/include/c++/13.2.0/bits/concept_check.h:
 
 C:/msys64/mingw64/include/QtCore/qstring.h:
 
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h:
+
+C:/msys64/mingw64/include/QtWidgets/qabstractitemview.h:
+
+C:/msys64/mingw64/include/c++/13.2.0/exception:
+
+C:/msys64/mingw64/include/QtGui/qmatrix.h:
+
+C:/msys64/mingw64/include/QtGui/qcursor.h:
+
+C:/msys64/mingw64/include/QtCore/qsize.h:
+
+C:/msys64/mingw64/include/c++/13.2.0/cerrno:
+
 C:/msys64/mingw64/include/QtCore/qiodevice.h:
 
 C:/msys64/mingw64/include/QtWidgets/QMainWindow:
@@ -1691,6 +1796,10 @@ C:/msys64/mingw64/include/QtGui/qpalette.h:
 C:/msys64/mingw64/include/QtCore/qlist.h:
 
 C:/msys64/mingw64/include/QtCore/qhashfunctions.h:
+
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableController.h:
+
+C:/msys64/mingw64/include/QtWidgets/qabstractitemdelegate.h:
 
 C:/msys64/mingw64/include/QtCore/qconfig.h:
 
@@ -1749,6 +1858,10 @@ C:/msys64/mingw64/include/QtCore/qobjectdefs.h:
 C:/msys64/mingw64/include/QtGui/qrgb.h:
 
 C:/msys64/mingw64/include/QtGui/qpixelformat.h:
+
+C:/msys64/mingw64/include/c++/13.2.0/bits/atomic_lockfree_defines.h:
+
+C:/msys64/mingw64/include/QtCore/qprocessordetection.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/bits/new_allocator.h:
 
@@ -1814,12 +1927,6 @@ C:/msys64/mingw64/include/QtCore/qmap.h:
 
 C:/msys64/mingw64/include/QtCore/qregularexpression.h:
 
-C:/msys64/mingw64/include/QtWidgets/qabstractitemdelegate.h:
-
-C:/msys64/mingw64/include/QtCore/qprocessordetection.h:
-
-C:/msys64/mingw64/include/c++/13.2.0/bits/atomic_lockfree_defines.h:
-
 C:/msys64/mingw64/include/QtCore/qsharedpointer_impl.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/bits/stl_algo.h:
@@ -1841,16 +1948,6 @@ C:/msys64/mingw64/include/QtWidgets/qtwidgets-config.h:
 C:/msys64/mingw64/include/QtCore/qcoreevent.h:
 
 C:/msys64/mingw64/include/QtCore/qnumeric.h:
-
-C:/msys64/mingw64/include/c++/13.2.0/utility:
-
-C:/msys64/mingw64/include/QtCore/qflags.h:
-
-C:/msys64/mingw64/include/QtCore/qmargins.h:
-
-C:/msys64/mingw64/include/QtWidgets/qapplication.h:
-
-C:/msys64/mingw64/include/QtGui/qfontmetrics.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/tuple:
 
@@ -1874,19 +1971,15 @@ C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/gthr.h:
 
 C:/msys64/mingw64/include/QtCore/qsharedpointer.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h:
+C:/msys64/mingw64/include/c++/13.2.0/utility:
 
-C:/msys64/mingw64/include/QtWidgets/qabstractitemview.h:
+C:/msys64/mingw64/include/QtCore/qflags.h:
 
-C:/msys64/mingw64/include/c++/13.2.0/exception:
+C:/msys64/mingw64/include/QtCore/qmargins.h:
 
-C:/msys64/mingw64/include/QtGui/qmatrix.h:
+C:/msys64/mingw64/include/QtGui/qfontmetrics.h:
 
-C:/msys64/mingw64/include/QtGui/qcursor.h:
-
-C:/msys64/mingw64/include/QtCore/qsize.h:
-
-C:/msys64/mingw64/include/c++/13.2.0/cerrno:
+C:/msys64/mingw64/include/QtWidgets/qapplication.h:
 
 C:/msys64/mingw64/include/QtWidgets/qboxlayout.h:
 
@@ -2145,5 +2238,3 @@ C:/msys64/mingw64/include/c++/13.2.0/bits/unique_ptr.h:
 C:/msys64/mingw64/include/c++/13.2.0/bits/utility.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/cctype:
-
-C:/msys64/mingw64/include/c++/13.2.0/chrono:

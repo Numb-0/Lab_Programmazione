@@ -617,23 +617,5 @@ CMakeFiles/MathTest.dir/TestMath.cpp.obj: \
  C:/msys64/mingw64/include/QtTest/qtestsystem.h \
  C:/msys64/mingw64/include/QtTest/qttestversion.h \
  C:/msys64/mingw64/include/QtCore/QDebug \
- C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\TableMath.h \
- C:/msys64/mingw64/include/QtWidgets/QTableWidget \
- C:/msys64/mingw64/include/QtWidgets/qtablewidget.h \
- C:/msys64/mingw64/include/QtWidgets/qtableview.h \
- C:/msys64/mingw64/include/QtWidgets/qabstractitemview.h \
- C:/msys64/mingw64/include/QtWidgets/qabstractscrollarea.h \
- C:/msys64/mingw64/include/QtWidgets/qframe.h \
- C:/msys64/mingw64/include/QtCore/qitemselectionmodel.h \
- C:/msys64/mingw64/include/QtWidgets/qabstractitemdelegate.h \
- C:/msys64/mingw64/include/QtWidgets/qstyleoption.h \
- C:/msys64/mingw64/include/QtWidgets/qabstractspinbox.h \
- C:/msys64/mingw64/include/QtGui/qvalidator.h \
- C:/msys64/mingw64/include/QtWidgets/qslider.h \
- C:/msys64/mingw64/include/QtWidgets/qabstractslider.h \
- C:/msys64/mingw64/include/QtWidgets/qstyle.h \
- C:/msys64/mingw64/include/QtWidgets/qtabbar.h \
- C:/msys64/mingw64/include/QtWidgets/qtabwidget.h \
- C:/msys64/mingw64/include/QtWidgets/qrubberband.h \
- C:/msys64/mingw64/include/c++/13.2.0/map \
+ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.h \
  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/MathTest_autogen/include/TestMath.moc

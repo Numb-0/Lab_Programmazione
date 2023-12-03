@@ -6,7 +6,7 @@
 #include <iostream>
 #include <vector>
 #include "ViewWindow.h"
-#include "TableMath.h"
+#include "TableController.h"
 
 class Window : public QMainWindow , public Subject
 {
@@ -14,7 +14,7 @@ class Window : public QMainWindow , public Subject
 public:
     Window(QWidget *parent = 0);
     ~Window();
-    TableMath* getTable(){return TMath;}
+    TableController* getTable(){return TableControl;}
     
     // Subject functions
     void notify(float data) override;
@@ -26,9 +26,7 @@ private slots:
 
 private:
     ViewWindow* ui;
-    TableMath* TMath;
-    QTableWidgetItem* previous_item = nullptr;
-    bool setup_done = false;
+    TableController* TableControl;
 
     // Observer support
     int counter = 0;

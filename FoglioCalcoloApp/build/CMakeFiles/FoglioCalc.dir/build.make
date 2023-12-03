@@ -113,11 +113,26 @@ CMakeFiles/FoglioCalc.dir/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FoglioCalc.dir/Window.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\Window.cpp -o CMakeFiles\FoglioCalc.dir\Window.cpp.s
 
+CMakeFiles/FoglioCalc.dir/TableController.cpp.obj: CMakeFiles/FoglioCalc.dir/flags.make
+CMakeFiles/FoglioCalc.dir/TableController.cpp.obj: CMakeFiles/FoglioCalc.dir/includes_CXX.rsp
+CMakeFiles/FoglioCalc.dir/TableController.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableController.cpp
+CMakeFiles/FoglioCalc.dir/TableController.cpp.obj: CMakeFiles/FoglioCalc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FoglioCalc.dir/TableController.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FoglioCalc.dir/TableController.cpp.obj -MF CMakeFiles\FoglioCalc.dir\TableController.cpp.obj.d -o CMakeFiles\FoglioCalc.dir\TableController.cpp.obj -c C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\TableController.cpp
+
+CMakeFiles/FoglioCalc.dir/TableController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FoglioCalc.dir/TableController.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\TableController.cpp > CMakeFiles\FoglioCalc.dir\TableController.cpp.i
+
+CMakeFiles/FoglioCalc.dir/TableController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FoglioCalc.dir/TableController.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\TableController.cpp -o CMakeFiles\FoglioCalc.dir\TableController.cpp.s
+
 CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj: CMakeFiles/FoglioCalc.dir/flags.make
 CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj: CMakeFiles/FoglioCalc.dir/includes_CXX.rsp
 CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj: C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.cpp
 CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj: CMakeFiles/FoglioCalc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj -MF CMakeFiles\FoglioCalc.dir\TableMath.cpp.obj.d -o CMakeFiles\FoglioCalc.dir\TableMath.cpp.obj -c C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\TableMath.cpp
 
 CMakeFiles/FoglioCalc.dir/TableMath.cpp.i: cmake_force
@@ -133,6 +148,7 @@ FoglioCalc_OBJECTS = \
 "CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/FoglioCalc.dir/main.cpp.obj" \
 "CMakeFiles/FoglioCalc.dir/Window.cpp.obj" \
+"CMakeFiles/FoglioCalc.dir/TableController.cpp.obj" \
 "CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj"
 
 # External object files for target FoglioCalc
@@ -141,6 +157,7 @@ FoglioCalc_EXTERNAL_OBJECTS =
 FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj
 FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/main.cpp.obj
 FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/Window.cpp.obj
+FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/TableController.cpp.obj
 FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj
 FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/build.make
 FoglioCalc.exe: C:/msys64/mingw64/lib/libQt5Widgets.dll.a
@@ -149,7 +166,7 @@ FoglioCalc.exe: C:/msys64/mingw64/lib/libQt5Core.dll.a
 FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/linkLibs.rsp
 FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/objects1.rsp
 FoglioCalc.exe: CMakeFiles/FoglioCalc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable FoglioCalc.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable FoglioCalc.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FoglioCalc.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

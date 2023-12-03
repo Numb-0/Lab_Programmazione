@@ -215,6 +215,30 @@ MathTest_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MathTest.dir\build.make CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.s
 .PHONY : MathTest_autogen/mocs_compilation.cpp.s
 
+TableController.obj: TableController.cpp.obj
+.PHONY : TableController.obj
+
+# target to build an object file
+TableController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoglioCalc.dir\build.make CMakeFiles/FoglioCalc.dir/TableController.cpp.obj
+.PHONY : TableController.cpp.obj
+
+TableController.i: TableController.cpp.i
+.PHONY : TableController.i
+
+# target to preprocess a source file
+TableController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoglioCalc.dir\build.make CMakeFiles/FoglioCalc.dir/TableController.cpp.i
+.PHONY : TableController.cpp.i
+
+TableController.s: TableController.cpp.s
+.PHONY : TableController.s
+
+# target to generate assembly for a file
+TableController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoglioCalc.dir\build.make CMakeFiles/FoglioCalc.dir/TableController.cpp.s
+.PHONY : TableController.cpp.s
+
 TableMath.obj: TableMath.cpp.obj
 .PHONY : TableMath.obj
 
@@ -332,6 +356,9 @@ help:
 	@echo ... MathTest_autogen/mocs_compilation.obj
 	@echo ... MathTest_autogen/mocs_compilation.i
 	@echo ... MathTest_autogen/mocs_compilation.s
+	@echo ... TableController.obj
+	@echo ... TableController.i
+	@echo ... TableController.s
 	@echo ... TableMath.obj
 	@echo ... TableMath.i
 	@echo ... TableMath.s

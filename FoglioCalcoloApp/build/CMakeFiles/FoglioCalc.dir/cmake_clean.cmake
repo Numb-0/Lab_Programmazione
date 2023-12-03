@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "FoglioCalc_autogen"
   "CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/FoglioCalc.dir/TableController.cpp.obj"
+  "CMakeFiles/FoglioCalc.dir/TableController.cpp.obj.d"
   "CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj"
   "CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj.d"
   "CMakeFiles/FoglioCalc.dir/Window.cpp.obj"

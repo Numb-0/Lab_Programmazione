@@ -1,8 +1,8 @@
-CMakeFiles/FoglioCalc.dir/Window.cpp.obj: \
- C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\Window.cpp \
- C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\Window.h \
- C:/msys64/mingw64/include/QtWidgets/QMainWindow \
- C:/msys64/mingw64/include/QtWidgets/qmainwindow.h \
+CMakeFiles/FoglioCalc.dir/TableController.cpp.obj: \
+ C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\TableController.cpp \
+ C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\TableController.h \
+ C:/msys64/mingw64/include/QtWidgets/QTableWidget \
+ C:/msys64/mingw64/include/QtWidgets/qtablewidget.h \
  C:/msys64/mingw64/include/QtWidgets/qtwidgetsglobal.h \
  C:/msys64/mingw64/include/QtGui/qtguiglobal.h \
  C:/msys64/mingw64/include/QtCore/qglobal.h \
@@ -87,6 +87,10 @@ CMakeFiles/FoglioCalc.dir/Window.cpp.obj: \
  C:/msys64/mingw64/include/QtCore/qversiontagging.h \
  C:/msys64/mingw64/include/QtGui/qtgui-config.h \
  C:/msys64/mingw64/include/QtWidgets/qtwidgets-config.h \
+ C:/msys64/mingw64/include/QtWidgets/qtableview.h \
+ C:/msys64/mingw64/include/QtWidgets/qabstractitemview.h \
+ C:/msys64/mingw64/include/QtWidgets/qabstractscrollarea.h \
+ C:/msys64/mingw64/include/QtWidgets/qframe.h \
  C:/msys64/mingw64/include/QtWidgets/qwidget.h \
  C:/msys64/mingw64/include/QtGui/qwindowdefs.h \
  C:/msys64/mingw64/include/QtCore/qobjectdefs.h \
@@ -277,9 +281,25 @@ CMakeFiles/FoglioCalc.dir/Window.cpp.obj: \
  C:/msys64/mingw64/include/QtWidgets/qsizepolicy.h \
  C:/msys64/mingw64/include/QtGui/qcursor.h \
  C:/msys64/mingw64/include/QtGui/qkeysequence.h \
- C:/msys64/mingw64/include/QtWidgets/qtabwidget.h \
+ C:/msys64/mingw64/include/QtCore/qabstractitemmodel.h \
+ C:/msys64/mingw64/include/QtCore/qvariant.h \
+ C:/msys64/mingw64/include/QtCore/qmap.h \
+ C:/msys64/mingw64/include/c++/13.2.0/variant \
+ C:/msys64/mingw64/include/QtCore/qitemselectionmodel.h \
+ C:/msys64/mingw64/include/QtCore/qset.h \
+ C:/msys64/mingw64/include/QtWidgets/qabstractitemdelegate.h \
+ C:/msys64/mingw64/include/QtWidgets/qstyleoption.h \
+ C:/msys64/mingw64/include/QtCore/qlocale.h \
+ C:/msys64/mingw64/include/QtWidgets/qabstractspinbox.h \
+ C:/msys64/mingw64/include/QtGui/qvalidator.h \
+ C:/msys64/mingw64/include/QtCore/qregularexpression.h \
  C:/msys64/mingw64/include/QtGui/qicon.h \
- C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Subject.h \
+ C:/msys64/mingw64/include/QtWidgets/qslider.h \
+ C:/msys64/mingw64/include/QtWidgets/qabstractslider.h \
+ C:/msys64/mingw64/include/QtWidgets/qstyle.h \
+ C:/msys64/mingw64/include/QtWidgets/qtabbar.h \
+ C:/msys64/mingw64/include/QtWidgets/qtabwidget.h \
+ C:/msys64/mingw64/include/QtWidgets/qrubberband.h \
  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Observer.h \
  C:/msys64/mingw64/include/c++/13.2.0/iostream \
  C:/msys64/mingw64/include/c++/13.2.0/ostream \
@@ -295,71 +315,4 @@ CMakeFiles/FoglioCalc.dir/Window.cpp.obj: \
  C:/msys64/mingw64/include/c++/13.2.0/bits/ostream.tcc \
  C:/msys64/mingw64/include/c++/13.2.0/istream \
  C:/msys64/mingw64/include/c++/13.2.0/bits/istream.tcc \
- C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\ViewWindow.h \
- C:/msys64/mingw64/include/QtCore/QVariant \
- C:/msys64/mingw64/include/QtCore/qvariant.h \
- C:/msys64/mingw64/include/QtCore/qmap.h \
- C:/msys64/mingw64/include/c++/13.2.0/variant \
- C:/msys64/mingw64/include/QtWidgets/QAction \
- C:/msys64/mingw64/include/QtWidgets/qaction.h \
- C:/msys64/mingw64/include/QtCore/qvariant.h \
- C:/msys64/mingw64/include/QtWidgets/qactiongroup.h \
- C:/msys64/mingw64/include/QtWidgets/qaction.h \
- C:/msys64/mingw64/include/QtWidgets/QApplication \
- C:/msys64/mingw64/include/QtWidgets/qapplication.h \
- C:/msys64/mingw64/include/QtCore/qcoreapplication.h \
- C:/msys64/mingw64/include/QtCore/qcoreevent.h \
- C:/msys64/mingw64/include/QtCore/qeventloop.h \
- C:/msys64/mingw64/include/QtGui/qguiapplication.h \
- C:/msys64/mingw64/include/QtGui/qinputmethod.h \
- C:/msys64/mingw64/include/QtCore/qlocale.h \
- C:/msys64/mingw64/include/QtWidgets/QButtonGroup \
- C:/msys64/mingw64/include/QtWidgets/qbuttongroup.h \
- C:/msys64/mingw64/include/QtWidgets/QHeaderView \
- C:/msys64/mingw64/include/QtWidgets/qheaderview.h \
- C:/msys64/mingw64/include/QtWidgets/qabstractitemview.h \
- C:/msys64/mingw64/include/QtWidgets/qabstractscrollarea.h \
- C:/msys64/mingw64/include/QtWidgets/qframe.h \
- C:/msys64/mingw64/include/QtCore/qabstractitemmodel.h \
- C:/msys64/mingw64/include/QtCore/qitemselectionmodel.h \
- C:/msys64/mingw64/include/QtCore/qset.h \
- C:/msys64/mingw64/include/QtWidgets/qabstractitemdelegate.h \
- C:/msys64/mingw64/include/QtWidgets/qstyleoption.h \
- C:/msys64/mingw64/include/QtWidgets/qabstractspinbox.h \
- C:/msys64/mingw64/include/QtGui/qvalidator.h \
- C:/msys64/mingw64/include/QtCore/qregularexpression.h \
- C:/msys64/mingw64/include/QtWidgets/qslider.h \
- C:/msys64/mingw64/include/QtWidgets/qabstractslider.h \
- C:/msys64/mingw64/include/QtWidgets/qstyle.h \
- C:/msys64/mingw64/include/QtWidgets/qtabbar.h \
- C:/msys64/mingw64/include/QtWidgets/qrubberband.h \
- C:/msys64/mingw64/include/QtWidgets/QLabel \
- C:/msys64/mingw64/include/QtWidgets/qlabel.h \
- C:/msys64/mingw64/include/QtWidgets/QMainWindow \
- C:/msys64/mingw64/include/QtWidgets/QPushButton \
- C:/msys64/mingw64/include/QtWidgets/qpushbutton.h \
- C:/msys64/mingw64/include/QtWidgets/qabstractbutton.h \
- C:/msys64/mingw64/include/QtWidgets/QTextEdit \
- C:/msys64/mingw64/include/QtWidgets/qtextedit.h \
- C:/msys64/mingw64/include/QtGui/qtextdocument.h \
- C:/msys64/mingw64/include/QtCore/qurl.h \
- C:/msys64/mingw64/include/QtGui/qtextoption.h \
- C:/msys64/mingw64/include/QtGui/qtextcursor.h \
- C:/msys64/mingw64/include/QtGui/qtextformat.h \
- C:/msys64/mingw64/include/QtGui/qpen.h \
- C:/msys64/mingw64/include/QtWidgets/QWidget \
- C:/msys64/mingw64/include/QtWidgets/qwidget.h \
- C:/msys64/mingw64/include/QtWidgets/QLineEdit \
- C:/msys64/mingw64/include/QtWidgets/qlineedit.h \
- C:/msys64/mingw64/include/QtWidgets/QTableWidget \
- C:/msys64/mingw64/include/QtWidgets/qtablewidget.h \
- C:/msys64/mingw64/include/QtWidgets/qtableview.h \
- C:/msys64/mingw64/include/QtWidgets/QVBoxLayout \
- C:/msys64/mingw64/include/QtWidgets/qboxlayout.h \
- C:/msys64/mingw64/include/QtWidgets/qlayout.h \
- C:/msys64/mingw64/include/QtWidgets/qlayoutitem.h \
- C:/msys64/mingw64/include/QtWidgets/qboxlayout.h \
- C:/msys64/mingw64/include/QtWidgets/qgridlayout.h \
- C:/msys64/mingw64/include/QtWidgets/QHBoxLayout \
- C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\TableController.h \
  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.h

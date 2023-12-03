@@ -2,6 +2,7 @@ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/FoglioCalc_auto
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/FoglioCalc_autogen/moc_predefs.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Observer.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Subject.h \
+  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableController.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.h \
   C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/ViewWindow.h \
   C:/msys64/mingw64/include/QtCore/QVariant \
@@ -157,7 +158,6 @@ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/FoglioCalc_auto
   C:/msys64/mingw64/include/_mingw_stdarg.h \
   C:/msys64/mingw64/include/_timeval.h \
   C:/msys64/mingw64/include/assert.h \
-  C:/msys64/mingw64/include/c++/13.2.0/Map \
   C:/msys64/mingw64/include/c++/13.2.0/algorithm \
   C:/msys64/mingw64/include/c++/13.2.0/array \
   C:/msys64/mingw64/include/c++/13.2.0/atomic \

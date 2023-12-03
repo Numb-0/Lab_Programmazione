@@ -19,6 +19,12 @@
 },
 {
   "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalc.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FoglioCalc.dir\\TableController.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalcoloApp\\TableController.cpp",
+  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableController.cpp",
+  "output": "CMakeFiles/FoglioCalc.dir/TableController.cpp.obj"
+},
+{
+  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build",
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalc.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FoglioCalc.dir\\TableMath.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalcoloApp\\TableMath.cpp",
   "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.cpp",
   "output": "CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj"

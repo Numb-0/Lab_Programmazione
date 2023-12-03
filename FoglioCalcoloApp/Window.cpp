@@ -3,15 +3,15 @@
 Window::Window(QWidget* parent) : QMainWindow(parent), ui(new ViewWindow())
 {
     ui->setupUi(this);
-    TMath = new TableMath(ui->Table);
+    TableControl = new TableController(ui->Table);
     
     // blocking all non used cells
-    TMath->setupTableArg();
+    TableControl->setupTableArg();
 }
 
 Window::~Window() 
 {
-    delete TMath;
+    delete TableControl;
     delete ui;
 }
 
@@ -26,8 +26,8 @@ void Window::refreshTable(QTableWidgetItem* item)
     }
     // update table only if number or empty
     if((isNumber || item->text().isEmpty())){
-        TMath->placeValues(num,item->row());
-        TMath->setTableArg();
+        TableControl->placeValues(num,item->row());
+        TableControl->setTableArg();
     }
 }
 

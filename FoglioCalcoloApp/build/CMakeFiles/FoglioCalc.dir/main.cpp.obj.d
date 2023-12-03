@@ -362,7 +362,5 @@ CMakeFiles/FoglioCalc.dir/main.cpp.obj: \
  C:/msys64/mingw64/include/QtWidgets/qboxlayout.h \
  C:/msys64/mingw64/include/QtWidgets/qgridlayout.h \
  C:/msys64/mingw64/include/QtWidgets/QHBoxLayout \
- C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\TableMath.h \
- C:/msys64/mingw64/include/c++/13.2.0/map \
- C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/CountObserver.h \
+ C:\Users\cosim\Desktop\Lab_Programmazione\FoglioCalcoloApp\TableController.h \
  C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.h
