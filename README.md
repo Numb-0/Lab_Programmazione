@@ -2,7 +2,7 @@
 Il programma è stato realizzato usando per l'interfaccia grafica Qt5 per C++
 ## TableController
 Viene creato un foglio di calcolo usando QTableWidget, poi vengono assegnati gli elementi al suo interno tramite la classe di supporto **TableController** che si occupa
-della crezione e dell'aggiornamento dei QTableWidgetItem. Al suo interno viene creata una map di *float* che contiene i dati in arrivo dalla **QWidgetTable**.
+della crezione e dell'aggiornamento dei QTableWidgetItem. Al suo interno viene creata una map di *float* che contiene i dati in arrivo dalla **QTableWidget**.
 ## TableMath
 Questa classe invece compie i calcoli matematici sulle map, infatti le sue funzione prendono in input una map e restituiscono un float.
 ## TestMath
