@@ -3,9 +3,8 @@
 Window::Window(QWidget* parent) : QMainWindow(parent), ui(new ViewWindow())
 {
     ui->setupUi(this);
+    // here we choose which Table our TabelController class must access
     TableControl = new TableController(ui->Table);
-    
-    // blocking all non used cells
     TableControl->setupTableArg();
 }
 
@@ -31,6 +30,7 @@ void Window::refreshTable(QTableWidgetItem* item)
     }
 }
 
+// Observer methods implementations
 void Window::notify(float data)
 {
     for (auto o : observers)

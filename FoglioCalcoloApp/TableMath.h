@@ -12,10 +12,10 @@ public:
     ~TableMath(){};
 
     // Math functions
-    float getMaxValue(std::map<int,float> TableVal);
-    float getMinValue(std::map<int,float> TableVal);
-    float getMediaValue(std::map<int,float> TableVal);
-    float getSommaValue(std::map<int,float> TableVal);
+    float getMaxValue(const std::map<int,float>& TableVal) const;
+    float getMinValue(const std::map<int,float>& TableVal) const;
+    float getMediaValue(const std::map<int,float>& TableVal) const;
+    float getSommaValue(const std::map<int,float>& TableVal) const;
 
 };
 

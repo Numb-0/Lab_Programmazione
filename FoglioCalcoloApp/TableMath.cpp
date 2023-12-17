@@ -1,6 +1,6 @@
 #include <TableMath.h>
 
-float TableMath::getMaxValue(std::map<int,float> TableVal)
+float TableMath::getMaxValue(const std::map<int,float>& TableVal) const
 {
     float max = std::numeric_limits<float>::lowest(); 
     
@@ -14,10 +14,11 @@ float TableMath::getMaxValue(std::map<int,float> TableVal)
     // case blank input
     if (max == std::numeric_limits<float>::lowest())
         return std::numeric_limits<double>::quiet_NaN();
+        
     return max;
 }
 
-float TableMath::getMinValue(std::map<int,float> TableVal)
+float TableMath::getMinValue(const std::map<int,float>& TableVal) const 
 {
     float min = std::numeric_limits<float>::max();
     for (const auto& pair : TableVal)
@@ -34,20 +35,22 @@ float TableMath::getMinValue(std::map<int,float> TableVal)
     // case blank input
     if (min == std::numeric_limits<float>::max())
         return std::numeric_limits<double>::quiet_NaN();
+    
     return min;
 }
 
-float TableMath::getMediaValue(std::map<int,float> TableVal)
+float TableMath::getMediaValue(const std::map<int,float>& TableVal) const 
 {
     return getSommaValue(TableVal)/TableVal.size();
 }
 
-float TableMath::getSommaValue(std::map<int,float> TableVal)
+float TableMath::getSommaValue(const std::map<int,float>& TableVal) const 
 {
     float Sum = 0;
     for (const auto& pair : TableVal)
     {
         Sum += pair.second;
     }
+
     return Sum;
 }

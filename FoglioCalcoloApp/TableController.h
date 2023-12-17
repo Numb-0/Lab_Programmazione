@@ -30,6 +30,7 @@ public:
     void placeValues(float value, int index);
     void setupTableArg();
     void setTableArg();
+
     std::map<int,float>& getTableMap(){return TableValues;}
     void setTableMap(const std::map<int,float>& map){TableValues = map;}
     int getTableSize(){return TableValues.size();}
@@ -41,8 +42,12 @@ public:
 
 private:
 
+    
     QTableWidget* Tab;
+    
     std::map<int,float> TableValues;
+        
+    // Using the TableMath class     
     TableMath TMath;
 
     // Table Items

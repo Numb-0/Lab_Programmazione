@@ -12,8 +12,10 @@ class Window : public QMainWindow , public Subject
 {
     Q_OBJECT
 public:
+    // it seems i cannot implemnt constructor e distructor here
     Window(QWidget *parent = 0);
     ~Window();
+
     TableController* getTable(){return TableControl;}
     
     // Subject functions

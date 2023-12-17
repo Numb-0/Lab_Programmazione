@@ -27,12 +27,14 @@ public:
     void setupUi(QMainWindow* View) 
     {
         View->resize(1000, 300);
-
+        
+        // window creation
         ViewWidget = new QWidget(View);
         ViewWidget->setObjectName(QStringLiteral("ViewWindow"));
         View->setCentralWidget(ViewWidget);
         QVBoxLayout* VerticalLayout = new QVBoxLayout(ViewWidget);
 
+        // table creation
         Table = new QTableWidget(8, 6, ViewWidget);
         Table->setObjectName(QStringLiteral("Table"));
         QStringList tableLabels = {"Numeri", "Somma", "Media", "Min", "Max", "AddedNumbersCount"};
@@ -45,6 +47,8 @@ public:
         VerticalLayout->addLayout(HorizontalLayout);
 
         retranslateUi(View);
+
+        // connecting TableController methods
         QObject::connect(Table, SIGNAL(itemChanged(QTableWidgetItem*)), View, SLOT(refreshTable(QTableWidgetItem*)));
         QMetaObject::connectSlotsByName(View);
     } 
