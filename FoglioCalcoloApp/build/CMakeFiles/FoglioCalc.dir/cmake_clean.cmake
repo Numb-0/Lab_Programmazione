@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "FoglioCalc.exe"
   "FoglioCalc.exe.manifest"
   "FoglioCalc.pdb"
+  "FoglioCalc_autogen/mocs_compilation.cpp"
+  "FoglioCalc_autogen/timestamp"
   "libFoglioCalc.dll.a"
 )
 

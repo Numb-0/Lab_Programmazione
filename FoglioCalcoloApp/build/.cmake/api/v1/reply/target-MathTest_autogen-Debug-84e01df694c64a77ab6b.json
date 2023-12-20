@@ -14,9 +14,15 @@
 			}
 		]
 	},
-	"id" : "FoglioCalc_autogen::@6890427a1f51a3e7e1df",
+	"dependencies" : 
+	[
+		{
+			"id" : "MathTest_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "MathTest_autogen::@6890427a1f51a3e7e1df",
 	"isGeneratorProvided" : true,
-	"name" : "FoglioCalc_autogen",
+	"name" : "MathTest_autogen",
 	"paths" : 
 	{
 		"build" : ".",
@@ -35,7 +41,8 @@
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -44,13 +51,19 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/FoglioCalc_autogen",
+			"path" : "build/CMakeFiles/MathTest_autogen",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/FoglioCalc_autogen.rule",
+			"path" : "build/CMakeFiles/MathTest_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/MathTest_autogen/timestamp.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "MathTest.exe"
   "MathTest.exe.manifest"
   "MathTest.pdb"
+  "MathTest_autogen/mocs_compilation.cpp"
+  "MathTest_autogen/timestamp"
   "libMathTest.dll.a"
 )
 

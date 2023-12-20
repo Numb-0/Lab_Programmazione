@@ -1,56 +1,60 @@
 #include <TableMath.h>
 
-float TableMath::getMaxValue(const std::map<int,float>& TableVal) const
+#include <TableMath.h>
+
+float TableMath::getMaxValue(const std::map<int, float>& TableVal) const
 {
-    float max = std::numeric_limits<float>::lowest(); 
+    if (TableVal.empty())
+        return std::numeric_limits<double>::quiet_NaN();
+
+    float max = std::numeric_limits<float>::lowest();
     
-    for (const auto& pair : TableVal)
+    for (const auto& [key, value] : TableVal)
     {
-        if (pair.second > max)
+        if (value > max)
         {
-            max = pair.second; 
+            max = value;
         }
     }
-    // case blank input
-    if (max == std::numeric_limits<float>::lowest())
-        return std::numeric_limits<double>::quiet_NaN();
-        
+
     return max;
 }
 
-float TableMath::getMinValue(const std::map<int,float>& TableVal) const 
+float TableMath::getMinValue(const std::map<int, float>& TableVal) const
 {
+    if (TableVal.empty())
+        return std::numeric_limits<double>::quiet_NaN();
+
     float min = std::numeric_limits<float>::max();
-    for (const auto& pair : TableVal)
+
+    for (const auto& [key, value] : TableVal)
     {
-        if (pair.second < min)
+        if (value < min)
         {
-            min = pair.second; 
-        }
-        else if (min == std::numeric_limits<float>::max())
-        {
-            min = std::numeric_limits<float>::quiet_NaN();
+            min = value;
         }
     }
-    // case blank input
-    if (min == std::numeric_limits<float>::max())
-        return std::numeric_limits<double>::quiet_NaN();
-    
+
     return min;
 }
 
-float TableMath::getMediaValue(const std::map<int,float>& TableVal) const 
+float TableMath::getMediaValue(const std::map<int, float>& TableVal) const
 {
-    return getSommaValue(TableVal)/TableVal.size();
+    if (TableVal.empty())
+        return std::numeric_limits<double>::quiet_NaN();
+
+    return getSommaValue(TableVal) / TableVal.size();
 }
 
-float TableMath::getSommaValue(const std::map<int,float>& TableVal) const 
+float TableMath::getSommaValue(const std::map<int, float>& TableVal) const
 {
-    float Sum = 0;
-    for (const auto& pair : TableVal)
+    float sum = 0;
+
+    for (const auto& [key, value] : TableVal)
     {
-        Sum += pair.second;
+        sum += value;
     }
 
-    return Sum;
+    return sum;
 }
+

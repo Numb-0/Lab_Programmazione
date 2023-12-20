@@ -2,5 +2,7 @@ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/CMakeFiles/Fogl
 C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/CMakeFiles/MathTest.dir
 C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/CMakeFiles/edit_cache.dir
 C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/CMakeFiles/rebuild_cache.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/CMakeFiles/FoglioCalc_autogen_timestamp_deps.dir
 C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/CMakeFiles/FoglioCalc_autogen.dir
+C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/CMakeFiles/MathTest_autogen_timestamp_deps.dir
 C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/CMakeFiles/MathTest_autogen.dir

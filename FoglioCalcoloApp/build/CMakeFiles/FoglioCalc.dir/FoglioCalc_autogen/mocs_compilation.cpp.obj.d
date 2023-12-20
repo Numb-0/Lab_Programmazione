@@ -159,7 +159,6 @@ CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj: \
  C:/msys64/mingw64/include/QtCore/qarraydata.h \
  C:/msys64/mingw64/include/string.h \
  C:/msys64/mingw64/include/sec_api/string_s.h \
- C:/msys64/mingw64/include/c++/13.2.0/cstdint \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdarg.h \
  C:/msys64/mingw64/include/stdarg.h \
  C:/msys64/mingw64/include/_mingw_stdarg.h \
@@ -243,6 +242,7 @@ CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj: \
  C:/msys64/mingw64/include/c++/13.2.0/chrono \
  C:/msys64/mingw64/include/c++/13.2.0/bits/chrono.h \
  C:/msys64/mingw64/include/c++/13.2.0/ratio \
+ C:/msys64/mingw64/include/c++/13.2.0/cstdint \
  C:/msys64/mingw64/include/c++/13.2.0/limits \
  C:/msys64/mingw64/include/c++/13.2.0/ctime \
  C:/msys64/mingw64/include/c++/13.2.0/bits/parse_numbers.h \
