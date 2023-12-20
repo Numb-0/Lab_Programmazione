@@ -65,9 +65,9 @@ include CMakeFiles/MathTest_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/MathTest_autogen_timestamp_deps.dir/progress.make
 
+CMakeFiles/MathTest_autogen_timestamp_deps: C:/msys64/mingw64/lib/libQt5Test.dll.a
 CMakeFiles/MathTest_autogen_timestamp_deps: C:/msys64/mingw64/lib/libQt5Widgets.dll.a
 CMakeFiles/MathTest_autogen_timestamp_deps: C:/msys64/mingw64/bin/moc.exe
-CMakeFiles/MathTest_autogen_timestamp_deps: C:/msys64/mingw64/lib/libQt5Test.dll.a
 
 MathTest_autogen_timestamp_deps: CMakeFiles/MathTest_autogen_timestamp_deps
 MathTest_autogen_timestamp_deps: CMakeFiles/MathTest_autogen_timestamp_deps.dir/build.make

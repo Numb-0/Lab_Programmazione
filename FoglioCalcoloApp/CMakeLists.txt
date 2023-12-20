@@ -23,6 +23,7 @@ add_executable(FoglioCalc
     TableController.cpp
     TableMath.h
     TableMath.cpp
+    # va messa per ultima?????
     ViewWindow.h
 )
 

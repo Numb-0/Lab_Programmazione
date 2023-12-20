@@ -46,9 +46,12 @@ private:
     QTableWidget* Tab;
     
     std::map<int,float> TableValues;
-        
-    // Using the TableMath class     
-    TableMath TMath;
+
+    // Strategy pattern Classes
+    TableMathMax MathMax = TableMathMax(&TableValues);
+    TableMathMin MathMin = TableMathMin(&TableValues);
+    TableMathMedia MathMedia = TableMathMedia(&TableValues);
+    TableMathSomma MathSomma = TableMathSomma(&TableValues);
 
     // Table Items
     QTableWidgetItem* Max;

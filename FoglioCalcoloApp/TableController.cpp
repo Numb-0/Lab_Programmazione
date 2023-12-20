@@ -57,10 +57,10 @@ void TableController::setTableArg()
     Tab->blockSignals(true);
     if(!TableValues.empty())
     {
-        Max->setText(QString::number(TMath.getMaxValue(TableValues)));
-        Min->setText(QString::number(TMath.getMinValue(TableValues)));
-        Media->setText(QString::number(TMath.getMediaValue(TableValues)));
-        Somma->setText(QString::number(TMath.getSommaValue(TableValues)));
+        Max->setText(QString::number(MathMax.compute()));
+        Min->setText(QString::number(MathMin.compute()));
+        Media->setText(QString::number(MathMedia.compute()));
+        Somma->setText(QString::number(MathSomma.compute()));
         Counter->setText(QString::number(changes_counter));
     }
     else

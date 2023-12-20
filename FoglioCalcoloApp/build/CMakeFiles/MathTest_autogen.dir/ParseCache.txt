@@ -397,7 +397,6 @@ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TestMath.cpp
  mdp:C:/msys64/mingw64/include/c++/13.2.0/compare
  mdp:C:/msys64/mingw64/include/c++/13.2.0/concepts
  mdp:C:/msys64/mingw64/include/c++/13.2.0/cstddef
- mdp:C:/msys64/mingw64/include/c++/13.2.0/cstdint
  mdp:C:/msys64/mingw64/include/c++/13.2.0/cstdlib
  mdp:C:/msys64/mingw64/include/c++/13.2.0/cwchar
  mdp:C:/msys64/mingw64/include/c++/13.2.0/cwctype

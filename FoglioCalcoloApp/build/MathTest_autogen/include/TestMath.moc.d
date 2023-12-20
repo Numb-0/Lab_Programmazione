@@ -393,7 +393,6 @@ C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/MathTest_autoge
   C:/msys64/mingw64/include/c++/13.2.0/compare \
   C:/msys64/mingw64/include/c++/13.2.0/concepts \
   C:/msys64/mingw64/include/c++/13.2.0/cstddef \
-  C:/msys64/mingw64/include/c++/13.2.0/cstdint \
   C:/msys64/mingw64/include/c++/13.2.0/cstdlib \
   C:/msys64/mingw64/include/c++/13.2.0/cwchar \
   C:/msys64/mingw64/include/c++/13.2.0/cwctype \

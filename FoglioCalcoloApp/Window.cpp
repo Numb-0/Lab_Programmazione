@@ -3,7 +3,7 @@
 Window::Window(QWidget* parent) : QMainWindow(parent), ui(new ViewWindow())
 {
     ui->setupUi(this);
-    // here we choose which Table our TabelController class must access
+    // here we choose which Table our TableController class must access
     TableControl = new TableController(ui->Table);
     TableControl->setupTableArg();
 }

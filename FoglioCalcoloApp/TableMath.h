@@ -8,15 +8,44 @@
 
 class TableMath {
 public:
-    TableMath(){};
-    ~TableMath(){};
+    TableMath(const std::map<int,float>* TableVal) : Map(TableVal){};
+    virtual ~TableMath(){};
+    
+    virtual float compute() const = 0;
+protected:
+    const std::map<int,float>* Map;
+};
 
-    // Math functions
-    float getMaxValue(const std::map<int,float>& TableVal) const;
-    float getMinValue(const std::map<int,float>& TableVal) const;
-    float getMediaValue(const std::map<int,float>& TableVal) const;
-    float getSommaValue(const std::map<int,float>& TableVal) const;
+class TableMathMax : public TableMath {
+public:
+    TableMathMax(const std::map<int,float>* TableVal) : TableMath(TableVal) {};
+    ~TableMathMax(){};
 
+    float compute() const override;
+};
+
+class TableMathMin : public TableMath {
+public:
+    TableMathMin(const std::map<int,float>* TableVal) : TableMath(TableVal) {};
+    ~TableMathMin(){};
+
+    float compute() const override;
+};
+
+class TableMathMedia : public TableMath {
+public:
+    TableMathMedia(const std::map<int,float>* TableVal) : TableMath(TableVal) {};
+    ~TableMathMedia(){};
+
+    float compute() const override;
+};
+
+class TableMathSomma : public TableMath {
+public:
+    TableMathSomma(const std::map<int,float>* TableVal) : TableMath(TableVal) {};
+    ~TableMathSomma(){};
+
+    float compute() const override;
 };
 
 #endif // TABLE_MATH_H
