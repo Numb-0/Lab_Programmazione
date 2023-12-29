@@ -1,50 +1,42 @@
 [
 {
-  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalc.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FoglioCalc.dir\\FoglioCalc_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalcoloApp\\build\\FoglioCalc_autogen\\mocs_compilation.cpp",
-  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/FoglioCalc_autogen/mocs_compilation.cpp",
-  "output": "CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.obj"
+  "directory": "/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/FoglioCalc_autogen/include -iframework /opt/local/libexec/qt5/lib -isystem /opt/local/libexec/qt5/lib/QtWidgets.framework/Headers -isystem /opt/local/libexec/qt5/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/local/libexec/qt5/lib/QtCore.framework/Headers -isystem /opt/local/libexec/qt5/./mkspecs/macx-clang -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7 -fPIC -std=gnu++17 -o CMakeFiles/FoglioCalc.dir/FoglioCalc_autogen/mocs_compilation.cpp.o -c /Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/FoglioCalc_autogen/mocs_compilation.cpp",
+  "file": "/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/FoglioCalc_autogen/mocs_compilation.cpp"
 },
 {
-  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalc.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FoglioCalc.dir\\main.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalcoloApp\\main.cpp",
-  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/main.cpp",
-  "output": "CMakeFiles/FoglioCalc.dir/main.cpp.obj"
+  "directory": "/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/FoglioCalc_autogen/include -iframework /opt/local/libexec/qt5/lib -isystem /opt/local/libexec/qt5/lib/QtWidgets.framework/Headers -isystem /opt/local/libexec/qt5/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/local/libexec/qt5/lib/QtCore.framework/Headers -isystem /opt/local/libexec/qt5/./mkspecs/macx-clang -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7 -fPIC -std=gnu++17 -o CMakeFiles/FoglioCalc.dir/main.cpp.o -c /Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/main.cpp",
+  "file": "/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/main.cpp"
 },
 {
-  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalc.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FoglioCalc.dir\\Window.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalcoloApp\\Window.cpp",
-  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/Window.cpp",
-  "output": "CMakeFiles/FoglioCalc.dir/Window.cpp.obj"
+  "directory": "/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/FoglioCalc_autogen/include -iframework /opt/local/libexec/qt5/lib -isystem /opt/local/libexec/qt5/lib/QtWidgets.framework/Headers -isystem /opt/local/libexec/qt5/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/local/libexec/qt5/lib/QtCore.framework/Headers -isystem /opt/local/libexec/qt5/./mkspecs/macx-clang -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7 -fPIC -std=gnu++17 -o CMakeFiles/FoglioCalc.dir/Window.cpp.o -c /Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/Window.cpp",
+  "file": "/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/Window.cpp"
 },
 {
-  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalc.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FoglioCalc.dir\\TableController.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalcoloApp\\TableController.cpp",
-  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableController.cpp",
-  "output": "CMakeFiles/FoglioCalc.dir/TableController.cpp.obj"
+  "directory": "/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/FoglioCalc_autogen/include -iframework /opt/local/libexec/qt5/lib -isystem /opt/local/libexec/qt5/lib/QtWidgets.framework/Headers -isystem /opt/local/libexec/qt5/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/local/libexec/qt5/lib/QtCore.framework/Headers -isystem /opt/local/libexec/qt5/./mkspecs/macx-clang -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7 -fPIC -std=gnu++17 -o CMakeFiles/FoglioCalc.dir/TableController.cpp.o -c /Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableController.cpp",
+  "file": "/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableController.cpp"
 },
 {
-  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/FoglioCalc.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\FoglioCalc.dir\\TableMath.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalcoloApp\\TableMath.cpp",
-  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.cpp",
-  "output": "CMakeFiles/FoglioCalc.dir/TableMath.cpp.obj"
+  "directory": "/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/FoglioCalc_autogen/include -iframework /opt/local/libexec/qt5/lib -isystem /opt/local/libexec/qt5/lib/QtWidgets.framework/Headers -isystem /opt/local/libexec/qt5/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /opt/local/libexec/qt5/lib/QtCore.framework/Headers -isystem /opt/local/libexec/qt5/./mkspecs/macx-clang -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7 -fPIC -std=gnu++17 -o CMakeFiles/FoglioCalc.dir/TableMath.cpp.o -c /Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.cpp",
+  "file": "/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.cpp"
 },
 {
-  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB @CMakeFiles/MathTest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\MathTest.dir\\MathTest_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalcoloApp\\build\\MathTest_autogen\\mocs_compilation.cpp",
-  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/MathTest_autogen/mocs_compilation.cpp",
-  "output": "CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.obj"
+  "directory": "/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_TESTCASE_BUILDDIR=\\\"/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/MathTest_autogen/include -iframework /opt/local/libexec/qt5/lib -isystem /opt/local/libexec/qt5/lib/QtTest.framework/Headers -isystem /opt/local/libexec/qt5/lib/QtCore.framework/Headers -isystem /opt/local/libexec/qt5/./mkspecs/macx-clang -isystem /opt/local/libexec/qt5/lib/QtWidgets.framework/Headers -isystem /opt/local/libexec/qt5/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7 -fPIC -std=gnu++17 -o CMakeFiles/MathTest.dir/MathTest_autogen/mocs_compilation.cpp.o -c /Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/MathTest_autogen/mocs_compilation.cpp",
+  "file": "/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/MathTest_autogen/mocs_compilation.cpp"
 },
 {
-  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB @CMakeFiles/MathTest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\MathTest.dir\\TestMath.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalcoloApp\\TestMath.cpp",
-  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TestMath.cpp",
-  "output": "CMakeFiles/MathTest.dir/TestMath.cpp.obj"
+  "directory": "/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_TESTCASE_BUILDDIR=\\\"/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/MathTest_autogen/include -iframework /opt/local/libexec/qt5/lib -isystem /opt/local/libexec/qt5/lib/QtTest.framework/Headers -isystem /opt/local/libexec/qt5/lib/QtCore.framework/Headers -isystem /opt/local/libexec/qt5/./mkspecs/macx-clang -isystem /opt/local/libexec/qt5/lib/QtWidgets.framework/Headers -isystem /opt/local/libexec/qt5/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7 -fPIC -std=gnu++17 -o CMakeFiles/MathTest.dir/TestMath.cpp.o -c /Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/TestMath.cpp",
+  "file": "/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/TestMath.cpp"
 },
 {
-  "directory": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/build\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB @CMakeFiles/MathTest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\MathTest.dir\\TableMath.cpp.obj -c C:\\Users\\cosim\\Desktop\\Lab_Programmazione\\FoglioCalcoloApp\\TableMath.cpp",
-  "file": "C:/Users/cosim/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.cpp",
-  "output": "CMakeFiles/MathTest.dir/TableMath.cpp.obj"
+  "directory": "/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_TESTCASE_BUILDDIR=\\\"/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp -I/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/build/MathTest_autogen/include -iframework /opt/local/libexec/qt5/lib -isystem /opt/local/libexec/qt5/lib/QtTest.framework/Headers -isystem /opt/local/libexec/qt5/lib/QtCore.framework/Headers -isystem /opt/local/libexec/qt5/./mkspecs/macx-clang -isystem /opt/local/libexec/qt5/lib/QtWidgets.framework/Headers -isystem /opt/local/libexec/qt5/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7 -fPIC -std=gnu++17 -o CMakeFiles/MathTest.dir/TableMath.cpp.o -c /Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.cpp",
+  "file": "/Users/Cosix/Desktop/Lab_Programmazione/FoglioCalcoloApp/TableMath.cpp"
 }
 ]

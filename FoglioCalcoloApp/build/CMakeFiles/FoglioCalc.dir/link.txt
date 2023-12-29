@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\FoglioCalc.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\FoglioCalc.dir/objects.a @CMakeFiles\FoglioCalc.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\FoglioCalc.dir/objects.a -Wl,--no-whole-archive -o FoglioCalc.exe -Wl,--out-implib,libFoglioCalc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FoglioCalc.dir\linkLibs.rsp

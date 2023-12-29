@@ -57,10 +57,14 @@ void TableController::setTableArg()
     Tab->blockSignals(true);
     if(!TableValues.empty())
     {
-        Max->setText(QString::number(MathMax.compute()));
-        Min->setText(QString::number(MathMin.compute()));
-        Media->setText(QString::number(MathMedia.compute()));
-        Somma->setText(QString::number(MathSomma.compute()));
+        std::vector<TableMath*> mathInstances = {mathMax, mathMin, mathMedia, mathSomma};
+        std::vector<QTableWidgetItem*> labels = {Max, Min, Media, Somma};
+
+        for (size_t i = 0; i < mathInstances.size(); ++i)
+        {
+            labels[i]->setText(QString::number(mathInstances[i]->compute()));
+        }
+
         Counter->setText(QString::number(changes_counter));
     }
     else

@@ -48,10 +48,10 @@ private:
     std::map<int,float> TableValues;
 
     // Strategy pattern Classes
-    TableMathMax MathMax = TableMathMax(&TableValues);
-    TableMathMin MathMin = TableMathMin(&TableValues);
-    TableMathMedia MathMedia = TableMathMedia(&TableValues);
-    TableMathSomma MathSomma = TableMathSomma(&TableValues);
+    TableMath* mathMax = new TableMathMax(&TableValues);
+    TableMath* mathMin = new TableMathMin(&TableValues);
+    TableMath* mathMedia = new TableMathMedia(&TableValues);
+    TableMath* mathSomma = new TableMathSomma(&TableValues);
 
     // Table Items
     QTableWidgetItem* Max;
